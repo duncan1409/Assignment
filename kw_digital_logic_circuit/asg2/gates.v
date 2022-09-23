@@ -8,7 +8,8 @@ endmodule
 module _and2 (
 	input a, b,
 	output y
-	);y = a & b;
+	);
+	assign y = a & b;
 endmodule
 
 

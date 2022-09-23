@@ -1,0 +1,14 @@
+|xor2
+d0 => d0.IN1
+d1 => d1.IN1
+y << _xor2:xor2.y
+
+
+|xor2|_xor2:xor2
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+

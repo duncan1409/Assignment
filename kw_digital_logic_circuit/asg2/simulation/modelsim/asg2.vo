@@ -1,0 +1,147 @@
+// Copyright (C) 2018  Intel Corporation. All rights reserved.
+// Your use of Intel Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Intel Program License 
+// Subscription Agreement, the Intel Quartus Prime License Agreement,
+// the Intel FPGA IP License Agreement, or other applicable license
+// agreement, including, without limitation, that your use is for
+// the sole purpose of programming logic devices manufactured by
+// Intel and sold by Intel or its authorized distributors.  Please
+// refer to the applicable agreement for further details.
+
+// VENDOR "Altera"
+// PROGRAM "Quartus Prime"
+// VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
+
+// DATE "09/24/2022 00:51:08"
+
+// 
+// Device: Altera 5CSXFC6D6F31C6 Package FBGA896
+// 
+
+// 
+// This Verilog file should be used for ModelSim-Altera (Verilog) only
+// 
+
+`timescale 1 ps/ 1 ps
+
+module xor2 (
+	d0,
+	d1,
+	y);
+input 	d0;
+input 	d1;
+output 	y;
+
+// Design Ports Information
+// y	=>  Location: PIN_AF28,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// d0	=>  Location: PIN_Y23,	 I/O Standard: 2.5 V,	 Current Strength: Default
+// d1	=>  Location: PIN_Y24,	 I/O Standard: 2.5 V,	 Current Strength: Default
+
+
+wire gnd;
+wire vcc;
+wire unknown;
+
+assign gnd = 1'b0;
+assign vcc = 1'b1;
+assign unknown = 1'bx;
+
+tri1 devclrn;
+tri1 devpor;
+tri1 devoe;
+wire \~QUARTUS_CREATED_GND~I_combout ;
+wire \d0~input_o ;
+wire \d1~input_o ;
+wire \xor2|y~0_combout ;
+
+
+// Location: IOOBUF_X89_Y13_N56
+cyclonev_io_obuf \y~output (
+	.i(\xor2|y~0_combout ),
+	.oe(vcc),
+	.dynamicterminationcontrol(gnd),
+	.seriesterminationcontrol(16'b0000000000000000),
+	.parallelterminationcontrol(16'b0000000000000000),
+	.devoe(devoe),
+	.o(y),
+	.obar());
+// synopsys translate_off
+defparam \y~output .bus_hold = "false";
+defparam \y~output .open_drain_output = "false";
+defparam \y~output .shift_series_termination_control = "false";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y13_N4
+cyclonev_io_ibuf \d0~input (
+	.i(d0),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\d0~input_o ));
+// synopsys translate_off
+defparam \d0~input .bus_hold = "false";
+defparam \d0~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: IOIBUF_X89_Y13_N21
+cyclonev_io_ibuf \d1~input (
+	.i(d1),
+	.ibar(gnd),
+	.dynamicterminationcontrol(gnd),
+	.o(\d1~input_o ));
+// synopsys translate_off
+defparam \d1~input .bus_hold = "false";
+defparam \d1~input .simulate_z_as = "z";
+// synopsys translate_on
+
+// Location: LABCELL_X88_Y13_N0
+cyclonev_lcell_comb \xor2|y~0 (
+// Equation(s):
+// \xor2|y~0_combout  = ( \d1~input_o  & ( !\d0~input_o  ) ) # ( !\d1~input_o  & ( \d0~input_o  ) )
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(!\d0~input_o ),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(!\d1~input_o ),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\xor2|y~0_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \xor2|y~0 .extended_lut = "off";
+defparam \xor2|y~0 .lut_mask = 64'h0F0F0F0FF0F0F0F0;
+defparam \xor2|y~0 .shared_arith = "off";
+// synopsys translate_on
+
+// Location: LABCELL_X13_Y28_N3
+cyclonev_lcell_comb \~QUARTUS_CREATED_GND~I (
+// Equation(s):
+
+	.dataa(gnd),
+	.datab(gnd),
+	.datac(gnd),
+	.datad(gnd),
+	.datae(gnd),
+	.dataf(gnd),
+	.datag(gnd),
+	.cin(gnd),
+	.sharein(gnd),
+	.combout(\~QUARTUS_CREATED_GND~I_combout ),
+	.sumout(),
+	.cout(),
+	.shareout());
+// synopsys translate_off
+defparam \~QUARTUS_CREATED_GND~I .extended_lut = "off";
+defparam \~QUARTUS_CREATED_GND~I .lut_mask = 64'h0000000000000000;
+defparam \~QUARTUS_CREATED_GND~I .shared_arith = "off";
+// synopsys translate_on
+
+endmodule

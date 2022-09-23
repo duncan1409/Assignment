@@ -6,7 +6,7 @@ module tb_mx2;
 	wire tb_y; 
 	
 	//named mapping
-	gates U0_mx2(
+	xor2 U0_xor2(
 		.a (tb_a),
 		.b (tb_b),
 		.y (tb_y)

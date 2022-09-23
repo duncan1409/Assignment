@@ -1,5 +1,5 @@
 Analysis & Synthesis report for asg2
-Thu Sep 22 21:54:42 2022
+Sat Sep 24 00:50:32 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -10,7 +10,13 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   2. Analysis & Synthesis Summary
   3. Analysis & Synthesis Settings
   4. Parallel Compilation
-  5. Analysis & Synthesis Messages
+  5. Analysis & Synthesis Source Files Read
+  6. Analysis & Synthesis Resource Usage Summary
+  7. Analysis & Synthesis Resource Utilization by Entity
+  8. General Register Statistics
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -33,22 +39,27 @@ refer to the applicable agreement for further details.
 
 
 
-+---------------------------------------------------------------------------+
-; Analysis & Synthesis Summary                                              ;
-+-----------------------------+---------------------------------------------+
-; Analysis & Synthesis Status ; Failed - Thu Sep 22 21:54:42 2022           ;
-; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
-; Revision Name               ; asg2                                        ;
-; Top-level Entity Name       ; gates                                       ;
-; Family                      ; Cyclone V                                   ;
-; Logic utilization (in ALMs) ; N/A until Partition Merge                   ;
-; Total registers             ; N/A until Partition Merge                   ;
-; Total pins                  ; N/A until Partition Merge                   ;
-; Total virtual pins          ; N/A until Partition Merge                   ;
-; Total block memory bits     ; N/A until Partition Merge                   ;
-; Total PLLs                  ; N/A until Partition Merge                   ;
-; Total DLLs                  ; N/A until Partition Merge                   ;
-+-----------------------------+---------------------------------------------+
++-------------------------------------------------------------------------------+
+; Analysis & Synthesis Summary                                                  ;
++---------------------------------+---------------------------------------------+
+; Analysis & Synthesis Status     ; Successful - Sat Sep 24 00:50:32 2022       ;
+; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
+; Revision Name                   ; asg2                                        ;
+; Top-level Entity Name           ; xor2                                        ;
+; Family                          ; Cyclone V                                   ;
+; Logic utilization (in ALMs)     ; N/A                                         ;
+; Total registers                 ; 0                                           ;
+; Total pins                      ; 3                                           ;
+; Total virtual pins              ; 0                                           ;
+; Total block memory bits         ; 0                                           ;
+; Total DSP Blocks                ; 0                                           ;
+; Total HSSI RX PCSs              ; 0                                           ;
+; Total HSSI PMA RX Deserializers ; 0                                           ;
+; Total HSSI TX PCSs              ; 0                                           ;
+; Total HSSI PMA TX Serializers   ; 0                                           ;
+; Total PLLs                      ; 0                                           ;
+; Total DLLs                      ; 0                                           ;
++---------------------------------+---------------------------------------------+
 
 
 +---------------------------------------------------------------------------------------------------------------------------+
@@ -57,7 +68,7 @@ refer to the applicable agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSXFC6D6F31C6     ;                    ;
-; Top-level entity name                                                           ; gates              ; asg2               ;
+; Top-level entity name                                                           ; xor2               ; asg2               ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -143,8 +154,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 8           ;
-; Maximum allowed            ; 4           ;
+; Number detected on machine ; 16          ;
+; Maximum allowed            ; 8           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -154,30 +165,128 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 
 
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                            ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                              ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
+; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v ;         ;
+; xor2.v                           ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v  ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
+
+
++--------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                  ;
++---------------------------------------------+----------------+
+; Resource                                    ; Usage          ;
++---------------------------------------------+----------------+
+; Estimate of Logic utilization (ALMs needed) ; 1              ;
+;                                             ;                ;
+; Combinational ALUT usage for logic          ; 1              ;
+;     -- 7 input functions                    ; 0              ;
+;     -- 6 input functions                    ; 0              ;
+;     -- 5 input functions                    ; 0              ;
+;     -- 4 input functions                    ; 0              ;
+;     -- <=3 input functions                  ; 1              ;
+;                                             ;                ;
+; Dedicated logic registers                   ; 0              ;
+;                                             ;                ;
+; I/O pins                                    ; 3              ;
+;                                             ;                ;
+; Total DSP Blocks                            ; 0              ;
+;                                             ;                ;
+; Maximum fan-out node                        ; _xor2:xor2|y~0 ;
+; Maximum fan-out                             ; 1              ;
+; Total fan-out                               ; 6              ;
+; Average fan-out                             ; 0.86           ;
++---------------------------------------------+----------------+
+
+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+; |xor2                      ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 3    ; 0            ; |xor2               ; _xor2       ; work         ;
+;    |_xor2:xor2|            ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |xor2|_xor2:xor2    ; _xor2       ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
+Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
+
+
++------------------------------------------------------+
+; General Register Statistics                          ;
++----------------------------------------------+-------+
+; Statistic                                    ; Value ;
++----------------------------------------------+-------+
+; Total registers                              ; 0     ;
+; Number of registers using Synchronous Clear  ; 0     ;
+; Number of registers using Synchronous Load   ; 0     ;
+; Number of registers using Asynchronous Clear ; 0     ;
+; Number of registers using Asynchronous Load  ; 0     ;
+; Number of registers using Clock Enable       ; 0     ;
+; Number of registers using Preset             ; 0     ;
++----------------------------------------------+-------+
+
+
++-----------------------------------------------------+
+; Post-Synthesis Netlist Statistics for Top Partition ;
++-----------------------+-----------------------------+
+; Type                  ; Count                       ;
++-----------------------+-----------------------------+
+; arriav_lcell_comb     ; 1                           ;
+;     normal            ; 1                           ;
+;         2 data inputs ; 1                           ;
+; boundary_port         ; 3                           ;
+;                       ;                             ;
+; Max LUT depth         ; 1.00                        ;
+; Average LUT depth     ; 1.00                        ;
++-----------------------+-----------------------------+
+
+
++-------------------------------+
+; Elapsed Time Per Partition    ;
++----------------+--------------+
+; Partition Name ; Elapsed Time ;
++----------------+--------------+
+; Top            ; 00:00:00     ;
++----------------+--------------+
+
+
 +-------------------------------+
 ; Analysis & Synthesis Messages ;
 +-------------------------------+
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Thu Sep 22 21:54:30 2022
+    Info: Processing started: Sat Sep 24 00:50:24 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off asg2 -c asg2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Error (10170): Verilog HDL syntax error at gates.v(11) near text: "=";  expecting ".", or "(". Check for and fix any syntax errors that appear immediately before or at the specified keyword. The Intel FPGA Knowledge Database contains many articles with specific details on how to resolve this error. Visit the Knowledge Database at https://www.altera.com/support/support-resources/knowledge-base/search.html and search for this specific error message number. File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 11
-Error (10112): Ignored design unit "_and2" at gates.v(8) due to previous errors File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 8
-Error (10112): Ignored design unit "_nand2" at gates.v(15) due to previous errors File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 15
-Error (10112): Ignored design unit "_or2" at gates.v(22) due to previous errors File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 22
-Error (10112): Ignored design unit "_nor2" at gates.v(29) due to previous errors File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 29
-Error (10112): Ignored design unit "_xor2" at gates.v(36) due to previous errors File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 36
-Error (10112): Ignored design unit "_xnor2" at gates.v(43) due to previous errors File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 43
-Info (12021): Found 0 design units, including 0 entities, in source file gates.v
+Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (12021): Found 7 design units, including 7 entities, in source file gates.v
+    Info (12023): Found entity 1: _inv File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 1
+    Info (12023): Found entity 2: _and2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 8
+    Info (12023): Found entity 3: _nand2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 16
+    Info (12023): Found entity 4: _or2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 23
+    Info (12023): Found entity 5: _nor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 30
+    Info (12023): Found entity 6: _xor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 37
+    Info (12023): Found entity 7: _xnor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 44
 Info (12021): Found 1 design units, including 1 entities, in source file xor_test.v
-    Info (12023): Found entity 1: tb_mx2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor_test.v Line: 3
-Error: Quartus Prime Analysis & Synthesis was unsuccessful. 7 errors, 1 warning
-    Error: Peak virtual memory: 4766 megabytes
-    Error: Processing ended: Thu Sep 22 21:54:42 2022
-    Error: Elapsed time: 00:00:12
-    Error: Total CPU time (on all processors): 00:00:25
+    Info (12023): Found entity 1: tb_mx2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor_test.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file xor2.v
+    Info (12023): Found entity 1: xor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v Line: 1
+Info (12127): Elaborating entity "xor2" for the top level hierarchy
+Info (12128): Elaborating entity "_xor2" for hierarchy "_xor2:xor2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v Line: 10
+Info (286030): Timing-Driven Synthesis is running
+Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
+    Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
+Info (21057): Implemented 4 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 2 input pins
+    Info (21059): Implemented 1 output pins
+    Info (21061): Implemented 1 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4837 megabytes
+    Info: Processing ended: Sat Sep 24 00:50:32 2022
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:16
 
 
