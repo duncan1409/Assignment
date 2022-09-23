@@ -1,0 +1,32 @@
+`timescale 1ns/100ps
+
+module tb_mx2;
+	
+	reg tb_a, tb_b, tb_s;
+	wire tb_y; 
+	//wire tb_y1;
+	
+	//first method_named mapping
+	mx2 U0_mx2(
+		.d0 (tb_a),
+		.d1 (tb_b),
+		.s (tb_s),
+		.y (tb_y)
+		);
+		
+	//second method_ordered mapping
+	/*mx2 U1_mx2(
+		tb_a,
+		tb_b,
+		tb_s,
+		tb_y1
+		);*/
+	
+	initial begin
+		 tb_s=0; tb_a = 1; tb_b = 0;
+	#10;tb_s=0; tb_a = 0; tb_b = 1;
+	#10;tb_s=1; tb_a = 1; tb_b = 0;
+	#10;tb_s=1; tb_a = 0; tb_b = 1;
+	#10;
+	end
+endmodule

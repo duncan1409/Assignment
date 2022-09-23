@@ -1,0 +1,123 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/simulation/modelsim
+v_and2
+Z1 !s110 1663655827
+!i10b 1
+!s100 zDW9ai]V=maU6[COLIfN13
+IG>AET<]QM2Dm9=]NPR:7=3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1663633852
+Z4 8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/gates.v
+Z5 FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/gates.v
+L0 15
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1663655827.000000
+Z8 !s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/gates.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/gates.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1
+Z12 tCvgOpt 0
+n@_and2
+v_inv
+R1
+!i10b 1
+!s100 FS15z=bnTVR?09`6Me:T70
+I5>Z:m0g0hf=:`XW^Q`4?<1
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_inv
+v_nand2
+R1
+!i10b 1
+!s100 1RzjjnHLF_GU__Z9E]^He2
+Im]L=:WjUD6O>@NOfKXjCi2
+R2
+R0
+R3
+R4
+R5
+L0 8
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_nand2
+vmx2
+R1
+!i10b 1
+!s100 97G[RZ982=NHGzcY[KW2_2
+IJ2MKG<zbYHf47m>lbnlMa1
+R2
+R0
+w1663653974
+8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/mx2.v
+FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/mx2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/mx2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/mx2.v|
+!i113 1
+R10
+R11
+R12
+vtb_mx2
+R1
+!i10b 1
+!s100 =0G0JL6P4I6S[N=HSWd5<2
+IVF5ULSL8R?kBk79:LHCe83
+R2
+R0
+w1663655485
+8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/tb_mx2.v
+FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/tb_mx2.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/tb_mx2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/tb_mx2.v|
+!i113 1
+R10
+R11
+R12

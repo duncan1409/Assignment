@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/gates.v
+source_file = 1, C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/mx2.v
+source_file = 1, C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/tb_mx2.v
+source_file = 1, C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg1/db/assignment1.cbx.xml
+design_name = mx2
+instance = comp, \y~output , y~output, mx2, 1
+instance = comp, \d1~input , d1~input, mx2, 1
+instance = comp, \s~input , s~input, mx2, 1
+instance = comp, \d0~input , d0~input, mx2, 1
+instance = comp, \nd22|y~0 , nd22|y~0, mx2, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, mx2, 1
