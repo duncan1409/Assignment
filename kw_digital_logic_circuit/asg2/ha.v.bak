@@ -1,0 +1,20 @@
+module ha (
+	input a, b,
+	output c, s
+	);
+	
+	_or2 or20 (
+		.a(a),
+		.b(b),
+		.y(c)
+		);
+	_and2 ad20 (
+		.a(a),
+		.b(b),
+		.y(s)
+		);
+	
+endmodule
+	
+		
+		

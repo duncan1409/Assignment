@@ -23,7 +23,7 @@ module tb_mx2;
 		);*/
 	
 	initial begin
-		 tb_s=0; tb_a = 1; tb_b = 0;
+		tb_s=0; tb_a = 1; tb_b = 0;
 	#10;tb_s=0; tb_a = 0; tb_b = 1;
 	#10;tb_s=1; tb_a = 1; tb_b = 0;
 	#10;tb_s=1; tb_a = 0; tb_b = 1;

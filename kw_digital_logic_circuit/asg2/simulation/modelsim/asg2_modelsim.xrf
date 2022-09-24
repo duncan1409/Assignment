@@ -1,11 +1,11 @@
 vendor_name = ModelSim
-source_file = 1, C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v
-source_file = 1, C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor_test.v
-source_file = 1, C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v
-source_file = 1, C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/db/asg2.cbx.xml
+source_file = 1, C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_xor2.v
+source_file = 1, C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v
+source_file = 1, C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v
+source_file = 1, C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/db/asg2.cbx.xml
 design_name = xor2
 instance = comp, \y~output , y~output, xor2, 1
 instance = comp, \d0~input , d0~input, xor2, 1
 instance = comp, \d1~input , d1~input, xor2, 1
-instance = comp, \xor2|y~0 , xor2|y~0, xor2, 1
+instance = comp, \xr2|y~0 , xr2|y~0, xor2, 1
 instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, xor2, 1

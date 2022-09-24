@@ -16,7 +16,7 @@
 // PROGRAM "Quartus Prime"
 // VERSION "Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition"
 
-// DATE "09/24/2022 00:51:08"
+// DATE "09/24/2022 14:40:27"
 
 // 
 // Device: Altera 5CSXFC6D6F31C6 Package FBGA896
@@ -56,12 +56,12 @@ tri1 devoe;
 wire \~QUARTUS_CREATED_GND~I_combout ;
 wire \d0~input_o ;
 wire \d1~input_o ;
-wire \xor2|y~0_combout ;
+wire \xr2|y~0_combout ;
 
 
 // Location: IOOBUF_X89_Y13_N56
 cyclonev_io_obuf \y~output (
-	.i(\xor2|y~0_combout ),
+	.i(\xr2|y~0_combout ),
 	.oe(vcc),
 	.dynamicterminationcontrol(gnd),
 	.seriesterminationcontrol(16'b0000000000000000),
@@ -98,9 +98,9 @@ defparam \d1~input .simulate_z_as = "z";
 // synopsys translate_on
 
 // Location: LABCELL_X88_Y13_N0
-cyclonev_lcell_comb \xor2|y~0 (
+cyclonev_lcell_comb \xr2|y~0 (
 // Equation(s):
-// \xor2|y~0_combout  = ( \d1~input_o  & ( !\d0~input_o  ) ) # ( !\d1~input_o  & ( \d0~input_o  ) )
+// \xr2|y~0_combout  = ( \d1~input_o  & ( !\d0~input_o  ) ) # ( !\d1~input_o  & ( \d0~input_o  ) )
 
 	.dataa(gnd),
 	.datab(gnd),
@@ -111,14 +111,14 @@ cyclonev_lcell_comb \xor2|y~0 (
 	.datag(gnd),
 	.cin(gnd),
 	.sharein(gnd),
-	.combout(\xor2|y~0_combout ),
+	.combout(\xr2|y~0_combout ),
 	.sumout(),
 	.cout(),
 	.shareout());
 // synopsys translate_off
-defparam \xor2|y~0 .extended_lut = "off";
-defparam \xor2|y~0 .lut_mask = 64'h0F0F0F0FF0F0F0F0;
-defparam \xor2|y~0 .shared_arith = "off";
+defparam \xr2|y~0 .extended_lut = "off";
+defparam \xr2|y~0 .lut_mask = 64'h0F0F0F0FF0F0F0F0;
+defparam \xr2|y~0 .shared_arith = "off";
 // synopsys translate_on
 
 // Location: LABCELL_X13_Y28_N3

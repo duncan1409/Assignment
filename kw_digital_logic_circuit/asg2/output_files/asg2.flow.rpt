@@ -1,5 +1,5 @@
 Flow report for asg2
-Sat Sep 24 00:51:08 2022
+Sat Sep 24 14:40:27 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat Sep 24 00:51:08 2022       ;
+; Flow Status                     ; Successful - Sat Sep 24 14:40:27 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; asg2                                        ;
 ; Top-level Entity Name           ; xor2                                        ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/24/2022 00:50:25 ;
+; Start date & time ; 09/24/2022 14:39:26 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; asg2                ;
 +-------------------+---------------------+
@@ -78,15 +78,15 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 237901784597189.166394822509940        ; --            ; --          ; --             ;
-; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; xor_test       ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; xor_test                               ; --            ; --          ; eda_simulation ;
+; COMPILER_SIGNATURE_ID                ; 167690711202823.166399796511204        ; --            ; --          ; --             ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_xor2        ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_xor2                                ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
-; EDA_TEST_BENCH_FILE                  ; xor_test.v                             ; --            ; --          ; xor_test       ;
-; EDA_TEST_BENCH_MODULE_NAME           ; xor_test                               ; --            ; --          ; xor_test       ;
-; EDA_TEST_BENCH_NAME                  ; xor_test                               ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_FILE                  ; tb_xor2.v                              ; --            ; --          ; tb_xor2        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb_xor2                                ; --            ; --          ; tb_xor2        ;
+; EDA_TEST_BENCH_NAME                  ; tb_xor2                                ; --            ; --          ; eda_simulation ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
@@ -105,12 +105,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4837 MB             ; 00:00:16                           ;
-; Fitter               ; 00:00:23     ; 1.0                     ; 6892 MB             ; 00:01:05                           ;
-; Assembler            ; 00:00:06     ; 1.0                     ; 4825 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 5144 MB             ; 00:00:03                           ;
-; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4723 MB             ; 00:00:01                           ;
-; Total                ; 00:00:43     ; --                      ; --                  ; 00:01:30                           ;
+; Analysis & Synthesis ; 00:00:12     ; 1.0                     ; 4813 MB             ; 00:00:24                           ;
+; Fitter               ; 00:00:31     ; 1.0                     ; 6487 MB             ; 00:00:56                           ;
+; Assembler            ; 00:00:07     ; 1.0                     ; 4819 MB             ; 00:00:07                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.0                     ; 5101 MB             ; 00:00:05                           ;
+; EDA Netlist Writer   ; 00:00:02     ; 1.0                     ; 4724 MB             ; 00:00:02                           ;
+; Total                ; 00:00:57     ; --                      ; --                  ; 00:01:34                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -119,11 +119,11 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 
