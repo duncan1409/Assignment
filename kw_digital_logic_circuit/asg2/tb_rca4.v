@@ -17,14 +17,16 @@ module tb_rca4;
 		);
 	
 	initial begin
+	//case 1. ci = 0
+	tb_ci = 0; tb_a = 4'b0000; tb_b = 4'b0101; //including 0000
+	#10;tb_ci = 0; tb_a = 4'b0011; tb_b = 4'b0101; //not out of the range 
+	#10;tb_ci = 0; tb_a = 4'b1011; tb_b = 4'b1101; //out of the range
 	
-	{tb_ci, tb_a, tb_b} =$random(); #(10) $display("%d %d %d %d %d", tb_ci, tb_a, tb_b, tb_s, tb_co );
-	#(10){tb_ci, tb_a, tb_b} =$random(); #(10) $display("%d %d %d %d %d", tb_ci, tb_a, tb_b, tb_s, tb_co );
-	#(10){tb_ci, tb_a, tb_b} =$random(); #(10) $display("%d %d %d %d %d", tb_ci, tb_a, tb_b, tb_s, tb_co );
-	#(10){tb_ci, tb_a, tb_b} =$random(); #(10) $display("%d %d %d %d %d", tb_ci, tb_a, tb_b, tb_s, tb_co );
-	#(10){tb_ci, tb_a, tb_b} =$random(); #(10) $display("%d %d %d %d %d", tb_ci, tb_a, tb_b, tb_s, tb_co );
-	#(10){tb_ci, tb_a, tb_b} =$random(); #(10) $display("%d %d %d %d %d", tb_ci, tb_a, tb_b, tb_s, tb_co );
-	#(10){tb_ci, tb_a, tb_b} =$random(); #(10) $display("%d %d %d %d %d", tb_ci, tb_a, tb_b, tb_s, tb_co );
-	#(10) $finish;
+	//case 2. ci = 1
+	#10;tb_ci = 1; tb_a = 4'b0000; tb_b = 4'b0010; //including 0000
+	#10;tb_ci = 1; tb_a = 4'b1100; tb_b = 4'b0010; //not out of the range
+	#10;tb_ci = 1; tb_a = 4'b1100; tb_b = 4'b1010; //out of the range
+	#10;
+	$finish;
 	end
 endmodule

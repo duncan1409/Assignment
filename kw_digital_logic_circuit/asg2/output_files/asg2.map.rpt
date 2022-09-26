@@ -1,5 +1,5 @@
 Analysis & Synthesis report for asg2
-Mon Sep 26 15:30:41 2022
+Mon Sep 26 23:04:03 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Sep 26 15:30:41 2022       ;
+; Analysis & Synthesis Status     ; Successful - Mon Sep 26 23:04:03 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; asg2                                        ;
 ; Top-level Entity Name           ; rca4                                        ;
@@ -269,7 +269,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Sep 26 15:30:23 2022
+    Info: Processing started: Mon Sep 26 23:03:47 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off asg2 -c asg2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
@@ -296,10 +296,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file rca4.v
 Info (12021): Found 1 design units, including 1 entities, in source file tb_rca4.v
     Info (12023): Found entity 1: tb_rca4 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v Line: 3
 Info (12127): Elaborating entity "rca4" for the top level hierarchy
-Info (12128): Elaborating entity "fa" for hierarchy "fa:fa_u0" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 16
+Info (12128): Elaborating entity "fa" for hierarchy "fa:fa_u0" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 17
 Info (12128): Elaborating entity "_and2" for hierarchy "fa:fa_u0|_and2:ad20" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 12
-Info (12128): Elaborating entity "_or3" for hierarchy "fa:fa_u0|_or3:or30" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 29
-Info (12128): Elaborating entity "_xor3" for hierarchy "fa:fa_u0|_xor3:xr30" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 36
+Info (12128): Elaborating entity "_or3" for hierarchy "fa:fa_u0|_or3:or30" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 30
+Info (12128): Elaborating entity "_xor3" for hierarchy "fa:fa_u0|_xor3:xr30" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 37
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -308,9 +308,9 @@ Info (21057): Implemented 20 device resources after synthesis - the final resour
     Info (21059): Implemented 5 output pins
     Info (21061): Implemented 6 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4811 megabytes
-    Info: Processing ended: Mon Sep 26 15:30:41 2022
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:35
+    Info: Peak virtual memory: 4812 megabytes
+    Info: Processing ended: Mon Sep 26 23:04:03 2022
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:29
 
 

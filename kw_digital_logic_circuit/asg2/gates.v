@@ -48,7 +48,7 @@ module _xnor2 (
 endmodule
 
 
-//3-input
+//3-input gates
 
 module _or3 (
 	input a, b, c,

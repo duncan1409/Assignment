@@ -21,6 +21,7 @@ module fa (
 		.y (w2)
 	);
 	
+	//I made 3-input XOR gate and 3-input OR gate.
 	_or3 or30 (
 		.a (w0),
 		.b (w1),

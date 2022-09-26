@@ -5,6 +5,7 @@ module rca4 (
 	output [3:0] s
 	);
 	
+	//3 c connects each full adder.
 	wire [2:0] c;
 	
 	fa fa_u0 (
@@ -14,6 +15,7 @@ module rca4 (
 		.co (c[0]),
 		.s (s[0])
 		);
+	//c_out of the previous full adder becomes c_in of the later full adder.
 	fa fa_u1 (
 		.ci(c[0]),
 		.a (a[1]),

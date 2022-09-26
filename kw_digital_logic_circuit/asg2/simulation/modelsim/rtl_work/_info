@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/simulation/modelsim
 v_and2
-Z1 !s110 1664173921
+Z1 !s110 1664201117
 !i10b 1
 !s100 B5Uo_b?YYoQ?0:Z;aM_k70
 Io7nOAKj5`al4P0<E]k>JA3
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1664168471
+Z3 w1664200893
 Z4 8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v
 Z5 FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v
 L0 8
@@ -23,7 +23,7 @@ Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1664173921.000000
+Z7 !s108 1664201117.000000
 Z8 !s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v|
 Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v|
 !i113 1
@@ -216,13 +216,13 @@ R11
 R12
 n@_xor3
 vfa
-R1
+Z13 !s110 1664201118
 !i10b 1
-!s100 ON:>bE6Lh[oiYOSHhoz`F0
-I752?Y]>]z<a^e5NSR=8_l0
+!s100 ^h5NzKZHDXEzbEeUY_9Vf1
+I5CQdQ]2DPCV[]J5OoJM2:1
 R2
 R0
-w1664107458
+w1664200878
 8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v
 FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v
 L0 1
@@ -238,13 +238,13 @@ R10
 R11
 R12
 vrca4
-R1
+R13
 !i10b 1
-!s100 ]fM_>GERgCX:0Y?`g9_gj0
-IlJ2SeV0dECH9Ydg<OiU;O3
+!s100 9lbm3:Az;0ZXO8g8bG@mO2
+IaYjkL<8K[oY=^V?YXdmEn1
 R2
 R0
-w1664170208
+w1664200892
 8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v
 FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v
 L0 1
@@ -252,7 +252,7 @@ R6
 r1
 !s85 0
 31
-R7
+Z14 !s108 1664201118.000000
 !s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v|
 !i113 1
@@ -260,13 +260,13 @@ R10
 R11
 R12
 vtb_rca4
-R1
+R13
 !i10b 1
-!s100 :=KP8=XDT:z@7NTACJUEX3
-I9c31m>PY3nc=LOiC42LIL1
+!s100 Z:AhAdiR`=V3UD_[37bU?0
+IQA3eaKTX`en0mP=mD4Kc_1
 R2
 R0
-w1664173821
+w1664201026
 8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v
 FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v
 L0 3
@@ -274,7 +274,7 @@ R6
 r1
 !s85 0
 31
-R7
+R14
 !s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v|
 !i113 1
