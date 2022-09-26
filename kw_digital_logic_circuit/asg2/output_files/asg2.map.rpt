@@ -1,5 +1,5 @@
 Analysis & Synthesis report for asg2
-Sat Sep 24 14:39:38 2022
+Mon Sep 26 15:30:41 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,14 +42,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Sep 24 14:39:38 2022       ;
+; Analysis & Synthesis Status     ; Successful - Mon Sep 26 15:30:41 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; asg2                                        ;
-; Top-level Entity Name           ; xor2                                        ;
+; Top-level Entity Name           ; rca4                                        ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 3                                           ;
+; Total pins                      ; 14                                          ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -68,7 +68,7 @@ refer to the applicable agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSXFC6D6F31C6     ;                    ;
-; Top-level entity name                                                           ; xor2               ; asg2               ;
+; Top-level entity name                                                           ; rca4               ; asg2               ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -171,45 +171,55 @@ refer to the applicable agreement for further details.
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                              ; Library ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
 ; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v ;         ;
-; xor2.v                           ; yes             ; User Verilog HDL File  ; C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v  ;         ;
+; fa.v                             ; yes             ; User Verilog HDL File  ; C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v    ;         ;
+; rca4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v  ;         ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
 
 
-+-------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                 ;
-+---------------------------------------------+---------------+
-; Resource                                    ; Usage         ;
-+---------------------------------------------+---------------+
-; Estimate of Logic utilization (ALMs needed) ; 1             ;
-;                                             ;               ;
-; Combinational ALUT usage for logic          ; 1             ;
-;     -- 7 input functions                    ; 0             ;
-;     -- 6 input functions                    ; 0             ;
-;     -- 5 input functions                    ; 0             ;
-;     -- 4 input functions                    ; 0             ;
-;     -- <=3 input functions                  ; 1             ;
-;                                             ;               ;
-; Dedicated logic registers                   ; 0             ;
-;                                             ;               ;
-; I/O pins                                    ; 3             ;
-;                                             ;               ;
-; Total DSP Blocks                            ; 0             ;
-;                                             ;               ;
-; Maximum fan-out node                        ; _xor2:xr2|y~0 ;
-; Maximum fan-out                             ; 1             ;
-; Total fan-out                               ; 6             ;
-; Average fan-out                             ; 0.86          ;
-+---------------------------------------------+---------------+
++----------------------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary                          ;
++---------------------------------------------+------------------------+
+; Resource                                    ; Usage                  ;
++---------------------------------------------+------------------------+
+; Estimate of Logic utilization (ALMs needed) ; 3                      ;
+;                                             ;                        ;
+; Combinational ALUT usage for logic          ; 6                      ;
+;     -- 7 input functions                    ; 0                      ;
+;     -- 6 input functions                    ; 0                      ;
+;     -- 5 input functions                    ; 4                      ;
+;     -- 4 input functions                    ; 0                      ;
+;     -- <=3 input functions                  ; 2                      ;
+;                                             ;                        ;
+; Dedicated logic registers                   ; 0                      ;
+;                                             ;                        ;
+; I/O pins                                    ; 14                     ;
+;                                             ;                        ;
+; Total DSP Blocks                            ; 0                      ;
+;                                             ;                        ;
+; Maximum fan-out node                        ; fa:fa_u1|_or3:or30|y~0 ;
+; Maximum fan-out                             ; 3                      ;
+; Total fan-out                               ; 45                     ;
+; Average fan-out                             ; 1.32                   ;
++---------------------------------------------+------------------------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                    ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
-; |xor2                      ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 3    ; 0            ; |xor2               ; xor2        ; work         ;
-;    |_xor2:xr2|             ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |xor2|_xor2:xr2     ; _xor2       ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------+-------------+--------------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                          ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name       ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
+; |rca4                      ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 14   ; 0            ; |rca4                     ; rca4        ; work         ;
+;    |fa:fa_u0|              ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u0            ; fa          ; work         ;
+;       |_xor3:xr30|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u0|_xor3:xr30 ; _xor3       ; work         ;
+;    |fa:fa_u1|              ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u1            ; fa          ; work         ;
+;       |_or3:or30|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u1|_or3:or30  ; _or3        ; work         ;
+;       |_xor3:xr30|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u1|_xor3:xr30 ; _xor3       ; work         ;
+;    |fa:fa_u2|              ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u2            ; fa          ; work         ;
+;       |_xor3:xr30|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u2|_xor3:xr30 ; _xor3       ; work         ;
+;    |fa:fa_u3|              ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u3            ; fa          ; work         ;
+;       |_or3:or30|          ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u3|_or3:or30  ; _or3        ; work         ;
+;       |_xor3:xr30|         ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca4|fa:fa_u3|_xor3:xr30 ; _xor3       ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+---------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -233,13 +243,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 1                           ;
-;     normal            ; 1                           ;
-;         2 data inputs ; 1                           ;
-; boundary_port         ; 3                           ;
+; arriav_lcell_comb     ; 6                           ;
+;     normal            ; 6                           ;
+;         3 data inputs ; 2                           ;
+;         5 data inputs ; 4                           ;
+; boundary_port         ; 14                          ;
 ;                       ;                             ;
-; Max LUT depth         ; 1.00                        ;
-; Average LUT depth     ; 1.00                        ;
+; Max LUT depth         ; 2.00                        ;
+; Average LUT depth     ; 1.60                        ;
 +-----------------------+-----------------------------+
 
 
@@ -258,35 +269,48 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Sep 24 14:39:25 2022
+    Info: Processing started: Mon Sep 26 15:30:23 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off asg2 -c asg2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
-Info (12021): Found 1 design units, including 1 entities, in source file tb_xor2.v
-    Info (12023): Found entity 1: tb_xor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_xor2.v Line: 3
-Info (12021): Found 7 design units, including 7 entities, in source file gates.v
+Info (12021): Found 9 design units, including 9 entities, in source file gates.v
     Info (12023): Found entity 1: _inv File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 1
     Info (12023): Found entity 2: _and2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 8
-    Info (12023): Found entity 3: _nand2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 16
-    Info (12023): Found entity 4: _or2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 23
-    Info (12023): Found entity 5: _nor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 30
-    Info (12023): Found entity 6: _xor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 37
-    Info (12023): Found entity 7: _xnor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 44
-Info (12021): Found 1 design units, including 1 entities, in source file xor2.v
-    Info (12023): Found entity 1: xor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v Line: 1
-Info (12127): Elaborating entity "xor2" for the top level hierarchy
-Info (12128): Elaborating entity "_xor2" for hierarchy "_xor2:xr2" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v Line: 10
+    Info (12023): Found entity 3: _nand2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 15
+    Info (12023): Found entity 4: _or2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 22
+    Info (12023): Found entity 5: _nor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 29
+    Info (12023): Found entity 6: _xor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 36
+    Info (12023): Found entity 7: _xnor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 43
+    Info (12023): Found entity 8: _or3 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 53
+    Info (12023): Found entity 9: _xor3 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 60
+Info (12021): Found 1 design units, including 1 entities, in source file ha.v
+    Info (12023): Found entity 1: ha File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/ha.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_ha.v
+    Info (12023): Found entity 1: tb_ha File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_ha.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file fa.v
+    Info (12023): Found entity 1: fa File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_fa.v
+    Info (12023): Found entity 1: tb_fa File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_fa.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file rca4.v
+    Info (12023): Found entity 1: rca4 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 1
+Info (12021): Found 1 design units, including 1 entities, in source file tb_rca4.v
+    Info (12023): Found entity 1: tb_rca4 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v Line: 3
+Info (12127): Elaborating entity "rca4" for the top level hierarchy
+Info (12128): Elaborating entity "fa" for hierarchy "fa:fa_u0" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 16
+Info (12128): Elaborating entity "_and2" for hierarchy "fa:fa_u0|_and2:ad20" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 12
+Info (12128): Elaborating entity "_or3" for hierarchy "fa:fa_u0|_or3:or30" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 29
+Info (12128): Elaborating entity "_xor3" for hierarchy "fa:fa_u0|_xor3:xr30" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 36
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 4 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 2 input pins
-    Info (21059): Implemented 1 output pins
-    Info (21061): Implemented 1 logic cells
+Info (21057): Implemented 20 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 9 input pins
+    Info (21059): Implemented 5 output pins
+    Info (21061): Implemented 6 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4813 megabytes
-    Info: Processing ended: Sat Sep 24 14:39:38 2022
-    Info: Elapsed time: 00:00:13
-    Info: Total CPU time (on all processors): 00:00:25
+    Info: Peak virtual memory: 4811 megabytes
+    Info: Processing ended: Mon Sep 26 15:30:41 2022
+    Info: Elapsed time: 00:00:18
+    Info: Total CPU time (on all processors): 00:00:35
 
 

@@ -12,7 +12,7 @@
 # 
 # vlog -vlog01compat -work work +incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2 {C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:41:29 on Sep 24,2022
+# Start time: 15:32:01 on Sep 26,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2" C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v 
 # -- Compiling module _inv
 # -- Compiling module _and2
@@ -21,6 +21,8 @@
 # -- Compiling module _nor2
 # -- Compiling module _xor2
 # -- Compiling module _xnor2
+# -- Compiling module _or3
+# -- Compiling module _xor3
 # 
 # Top level modules:
 # 	_inv
@@ -30,36 +32,51 @@
 # 	_nor2
 # 	_xor2
 # 	_xnor2
-# End time: 14:41:30 on Sep 24,2022, Elapsed time: 0:00:01
+# 	_or3
+# 	_xor3
+# End time: 15:32:01 on Sep 26,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2 {C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2 {C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:41:30 on Sep 24,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2" C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v 
-# -- Compiling module xor2
+# Start time: 15:32:01 on Sep 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2" C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v 
+# -- Compiling module fa
 # 
 # Top level modules:
-# 	xor2
-# End time: 14:41:30 on Sep 24,2022, Elapsed time: 0:00:00
+# 	fa
+# End time: 15:32:01 on Sep 26,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# 
-# vlog -vlog01compat -work work +incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2 {C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_xor2.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2 {C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:41:30 on Sep 24,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2" C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_xor2.v 
-# -- Compiling module tb_xor2
+# Start time: 15:32:01 on Sep 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2" C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v 
+# -- Compiling module rca4
 # 
 # Top level modules:
-# 	tb_xor2
-# End time: 14:41:30 on Sep 24,2022, Elapsed time: 0:00:00
+# 	rca4
+# End time: 15:32:01 on Sep 26,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_xor2
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_xor2 
-# Start time: 14:41:30 on Sep 24,2022
-# Loading work.tb_xor2
-# Loading work.xor2
-# Loading work._xor2
+# vlog -vlog01compat -work work +incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2 {C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:32:01 on Sep 26,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2" C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v 
+# -- Compiling module tb_rca4
+# 
+# Top level modules:
+# 	tb_rca4
+# End time: 15:32:01 on Sep 26,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_rca4
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_rca4 
+# Start time: 15:32:02 on Sep 26,2022
+# Loading work.tb_rca4
+# Loading work.rca4
+# Loading work.fa
+# Loading work._and2
+# Loading work._or3
+# Loading work._xor3
 # 
 # add wave *
 # view structure
@@ -67,5 +84,16 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# End time: 14:41:48 on Sep 24,2022, Elapsed time: 0:00:18
+# 1  2  4  7 0
+# 0  8  1  9 0
+# 0  0  9  9 0
+# 0  6  3  9 0
+# 1  0 13 14 0
+# 1  8 13  6 1
+# 0  6  5 11 0
+# ** Note: $finish    : C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v(28)
+#    Time: 140 ns  Iteration: 0  Instance: /tb_rca4
+# 1
+# Break in Module tb_rca4 at C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v line 28
+# End time: 15:32:54 on Sep 26,2022, Elapsed time: 0:00:52
 # Errors: 0, Warnings: 0

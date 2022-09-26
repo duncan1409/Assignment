@@ -3,13 +3,14 @@
 module tb_ha;
 	
 	reg tb_a, tb_b;
-	wire tb_y; 
+	wire tb_co, tb_s; 
 	
 	//named mapping
 	ha U0_ha(
 		.a (tb_a),
 		.b (tb_b),
-		.y (tb_y)
+		.co (tb_co),
+		.s (tb_s)
 		);
 	
 	initial begin

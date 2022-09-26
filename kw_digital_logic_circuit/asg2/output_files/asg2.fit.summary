@@ -1,13 +1,13 @@
-Fitter Status : Successful - Sat Sep 24 14:40:09 2022
+Fitter Status : Successful - Mon Sep 26 15:31:20 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : asg2
-Top-level Entity Name : xor2
+Top-level Entity Name : rca4
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 1 / 41,910 ( < 1 % )
+Logic utilization (in ALMs) : 4 / 41,910 ( < 1 % )
 Total registers : 0
-Total pins : 3 / 499 ( < 1 % )
+Total pins : 14 / 499 ( 3 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 5,662,720 ( 0 % )
 Total RAM Blocks : 0 / 553 ( 0 % )
