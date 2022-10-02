@@ -1,5 +1,5 @@
 Flow report for asg2
-Mon Sep 26 23:05:03 2022
+Sat Oct 01 09:02:00 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,16 +40,16 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Mon Sep 26 23:05:03 2022       ;
+; Flow Status                     ; Successful - Sat Oct 01 09:02:00 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; asg2                                        ;
-; Top-level Entity Name           ; rca4                                        ;
+; Top-level Entity Name           ; rca32                                       ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSXFC6D6F31C6                              ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 4 / 41,910 ( < 1 % )                        ;
+; Logic utilization (in ALMs)     ; 42 / 41,910 ( < 1 % )                       ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 14 / 499 ( 3 % )                            ;
+; Total pins                      ; 98 / 499 ( 20 % )                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                       ;
 ; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/26/2022 23:03:49 ;
+; Start date & time ; 10/01/2022 09:01:03 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; asg2                ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 167690711202823.166420102811044        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 237901784597189.166458246315800        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_rca4        ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_fa          ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_ha          ;
@@ -98,13 +98,13 @@ refer to the applicable agreement for further details.
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; rca4        ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; rca4        ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; rca4        ; Top            ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; rca32       ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; rca32       ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; rca32       ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                     ; rca4                                   ; asg2          ; --          ; --             ;
+; TOP_LEVEL_ENTITY                     ; rca32                                  ; asg2          ; --          ; --             ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
@@ -113,12 +113,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:16     ; 1.0                     ; 4812 MB             ; 00:00:28                           ;
-; Fitter               ; 00:00:35     ; 1.0                     ; 6476 MB             ; 00:01:04                           ;
-; Assembler            ; 00:00:08     ; 1.0                     ; 4821 MB             ; 00:00:08                           ;
-; Timing Analyzer      ; 00:00:08     ; 1.0                     ; 5102 MB             ; 00:00:08                           ;
-; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4725 MB             ; 00:00:04                           ;
-; Total                ; 00:01:11     ; --                      ; --                  ; 00:01:52                           ;
+; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4835 MB             ; 00:00:17                           ;
+; Fitter               ; 00:00:36     ; 1.0                     ; 7001 MB             ; 00:01:57                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4825 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 5175 MB             ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4737 MB             ; 00:00:01                           ;
+; Total                ; 00:00:53     ; --                      ; --                  ; 00:02:24                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
@@ -127,11 +127,11 @@ refer to the applicable agreement for further details.
 +----------------------+------------------+------------+------------+----------------+
 ; Module Name          ; Machine Hostname ; OS Name    ; OS Version ; Processor type ;
 +----------------------+------------------+------------+------------+----------------+
-; Analysis & Synthesis ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
-; Fitter               ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
-; Assembler            ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
-; Timing Analyzer      ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
-; EDA Netlist Writer   ; DESKTOP-67G7RL1  ; Windows 10 ; 10.0       ; x86_64         ;
+; Analysis & Synthesis ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Fitter               ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Assembler            ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; Timing Analyzer      ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
+; EDA Netlist Writer   ; DESKTOP-ACD69UJ  ; Windows 10 ; 10.0       ; x86_64         ;
 +----------------------+------------------+------------+------------+----------------+
 
 

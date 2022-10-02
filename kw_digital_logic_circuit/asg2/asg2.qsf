@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSXFC6D6F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY rca4
+set_global_assignment -name TOP_LEVEL_ENTITY rca32
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "09:06:09  SEPTEMBER 20, 2022"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -53,26 +53,27 @@ set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
 set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_rca4 -section_id eda_simulation
-set_global_assignment -name VERILOG_FILE gates.v
-set_global_assignment -name VERILOG_FILE ha.v
-set_global_assignment -name VERILOG_FILE tb_ha.v
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_ha -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_ha
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_ha -section_id tb_ha
-set_global_assignment -name VERILOG_FILE fa.v
-set_global_assignment -name VERILOG_FILE tb_fa.v
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_fa -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_fa
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_fa -section_id tb_fa
-set_global_assignment -name VERILOG_FILE rca4.v
-set_global_assignment -name VERILOG_FILE tb_rca4.v
-set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
-set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
-set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_global_assignment -name EDA_TEST_BENCH_FILE tb_ha.v -section_id tb_ha
 set_global_assignment -name EDA_TEST_BENCH_FILE tb_fa.v -section_id tb_fa
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_rca4 -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_rca4
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_rca4 -section_id tb_rca4
 set_global_assignment -name EDA_TEST_BENCH_FILE tb_rca4.v -section_id tb_rca4
+set_global_assignment -name VERILOG_FILE rca32.v
+set_global_assignment -name VERILOG_FILE gates.v
+set_global_assignment -name VERILOG_FILE ha.v
+set_global_assignment -name VERILOG_FILE tb_ha.v
+set_global_assignment -name VERILOG_FILE fa.v
+set_global_assignment -name VERILOG_FILE tb_fa.v
+set_global_assignment -name VERILOG_FILE rca4.v
+set_global_assignment -name VERILOG_FILE tb_rca4.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

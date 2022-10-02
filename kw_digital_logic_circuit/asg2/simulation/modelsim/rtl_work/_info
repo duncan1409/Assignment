@@ -7,35 +7,35 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/simulation/modelsim
+Z0 dC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/simulation/modelsim
 v_and2
-Z1 !s110 1664201117
+Z1 !s110 1664582598
 !i10b 1
 !s100 B5Uo_b?YYoQ?0:Z;aM_k70
-Io7nOAKj5`al4P0<E]k>JA3
+IB]Wk8lNA:zLbdkB9Z?niQ2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-Z3 w1664200893
-Z4 8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v
-Z5 FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v
+Z3 w1664207998
+Z4 8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v
+Z5 FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v
 L0 8
 Z6 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z7 !s108 1664201117.000000
-Z8 !s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v|
-Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v|
+Z7 !s108 1664582598.000000
+Z8 !s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v|
 !i113 1
 Z10 o-vlog01compat -work work
-Z11 !s92 -vlog01compat -work work +incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2
 Z12 tCvgOpt 0
 n@_and2
 v_inv
 R1
 !i10b 1
 !s100 FS15z=bnTVR?09`6Me:T70
-IhXoFTWR3T4YGJ7Fcoe<oc0
+I5n`eo1zR`Am1]F1meekc=3
 R2
 R0
 R3
@@ -58,7 +58,7 @@ v_nand2
 R1
 !i10b 1
 !s100 i_QH`PzDGN3oc:E7mD@zz0
-InmI;=W[9nJ22e8J5hf@l21
+I2SZlo5Siiom]N5AHkZi@21
 R2
 R0
 R3
@@ -81,7 +81,7 @@ v_nor2
 R1
 !i10b 1
 !s100 2X`OkP`4NN>IQ=eSUj^RT1
-I`lV62IfO42k7a=0HPO1[03
+IZQmCGiO_OQI^Ce@j=7j963
 R2
 R0
 R3
@@ -104,7 +104,7 @@ v_or2
 R1
 !i10b 1
 !s100 H7b=>XZ5Gli:M>e6@Rb^Q0
-IjeH@^MNNkLYkSJ>]XDb7k3
+I2z_5IhU9eF_S9Z;oT=NfA0
 R2
 R0
 R3
@@ -127,7 +127,7 @@ v_or3
 R1
 !i10b 1
 !s100 =9mdDk]g5BWm:D@7?5DIc0
-IaR@z?JK_9A^eMlPb]4?c02
+I[ff=ggf5ElH]>?YNSa]Y80
 R2
 R0
 R3
@@ -150,7 +150,7 @@ v_xnor2
 R1
 !i10b 1
 !s100 Nh7ZhCLm3dTgcFY=YTA=?3
-IH@i8WQ0E>V[nmc;B@37:I3
+ITgj56N7k7lFT8jakj=]2d0
 R2
 R0
 R3
@@ -173,7 +173,7 @@ v_xor2
 R1
 !i10b 1
 !s100 Co@T_j7F<3X[]VXjl2PbW0
-I881^k3U_o8C=VaDnVGT1=1
+I;2Ta=YM^7Lm^JSb=zEL4P2
 R2
 R0
 R3
@@ -196,7 +196,7 @@ v_xor3
 R1
 !i10b 1
 !s100 ogKa_cF7:C;kP3oKLkeH51
-I4eFi<CG`295?c;5B>dE<n1
+Izz<ci5d8aJg[^UOXSZ4SK1
 R2
 R0
 R3
@@ -216,67 +216,89 @@ R11
 R12
 n@_xor3
 vfa
-Z13 !s110 1664201118
+R1
 !i10b 1
 !s100 ^h5NzKZHDXEzbEeUY_9Vf1
-I5CQdQ]2DPCV[]J5OoJM2:1
+IP5^]I3g3<7M5oVb8lSE[E0
 R2
 R0
-w1664200878
-8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v
-FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v
+R3
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v
 L0 1
 R6
 r1
 !s85 0
 31
 R7
-!s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v|
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v|
 !i113 1
 R10
 R11
 R12
-vrca4
-R13
+vrca32
+R1
 !i10b 1
-!s100 9lbm3:Az;0ZXO8g8bG@mO2
-IaYjkL<8K[oY=^V?YXdmEn1
+!s100 H2U]idO?nj9O[n[B5G>`>2
+Idf`LM?>FfBmCPlMnY6o?V3
 R2
 R0
-w1664200892
-8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v
-FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v
+w1664582461
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v
 L0 1
 R6
 r1
 !s85 0
 31
-Z14 !s108 1664201118.000000
-!s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v|
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v|
+!i113 1
+R10
+R11
+R12
+vrca4
+R1
+!i10b 1
+!s100 9lbm3:Az;0ZXO8g8bG@mO2
+I=c`<=2InWgM:41N5@<1of3
+R2
+R0
+R3
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v|
 !i113 1
 R10
 R11
 R12
 vtb_rca4
-R13
+R1
 !i10b 1
-!s100 Z:AhAdiR`=V3UD_[37bU?0
-IQA3eaKTX`en0mP=mD4Kc_1
+!s100 DdSal]Kc72K?U5]1Vo`<I3
+IjN`B9_N__j;C`l[gTnGjC3
 R2
 R0
-w1664201026
-8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v
-FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v
-L0 3
+w1664581756
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v
+L0 4
 R6
 r1
 !s85 0
 31
-R14
-!s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v|
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v|
 !i113 1
 R10
 R11
