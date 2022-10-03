@@ -57,9 +57,46 @@ module _or3 (
 	assign y = a | b | c ;
 endmodule
 
+module _and3(
+	input a, b, c,
+	output y
+);
+	assign y = a & b & c ;
+	endmodule
+
 module _xor3 (
 	input a, b, c,
 	output y
 	);
 	assign y = ( a & ~b & ~c) | ( ~a & b & ~c) | ( ~a & ~b & c) | a & b & c ;
+endmodule
+	
+//4-input gates
+module _or4 (
+	input a, b, c, d,
+	output y
+	);
+	assign y = a | b | c | d ;
+endmodule
+
+module _and4 (
+	input a, b, c, d,
+	output y
+	);
+	assign y = a & b & c & d ;
+endmodule
+
+//5-input gates
+module _or5 (
+	input a, b, c, d, e, 
+	output y
+	);
+	assign y = a | b | c | d | e ;
+endmodule
+
+module _and5 (
+	input a, b, c, d, e, 
+	output y
+	);
+	assign y = a & b & c & d & e ;
 endmodule
