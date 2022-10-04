@@ -1,5 +1,5 @@
 Analysis & Synthesis report for asg2
-Sat Oct 01 09:01:11 2022
+Tue Oct 04 09:50:03 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -43,7 +43,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Oct 01 09:01:10 2022       ;
+; Analysis & Synthesis Status     ; Successful - Tue Oct 04 09:50:03 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; asg2                                        ;
 ; Top-level Entity Name           ; rca32                                       ;
@@ -155,8 +155,8 @@ refer to the applicable agreement for further details.
 +----------------------------+-------------+
 ; Processors                 ; Number      ;
 +----------------------------+-------------+
-; Number detected on machine ; 16          ;
-; Maximum allowed            ; 8           ;
+; Number detected on machine ; 8           ;
+; Maximum allowed            ; 4           ;
 ;                            ;             ;
 ; Average used               ; 1.00        ;
 ; Maximum used               ; 1           ;
@@ -171,10 +171,10 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                              ; Library ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
-; rca32.v                          ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v ;         ;
-; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v ;         ;
-; fa.v                             ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v    ;         ;
-; rca4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v  ;         ;
+; rca32.v                          ; yes             ; User Verilog HDL File  ; C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v ;         ;
+; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v ;         ;
+; fa.v                             ; yes             ; User Verilog HDL File  ; C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v    ;         ;
+; rca4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v  ;         ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
 
 
@@ -362,40 +362,40 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Oct 01 09:01:03 2022
+    Info: Processing started: Tue Oct 04 09:49:46 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off asg2 -c asg2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
-Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
+Info (20030): Parallel compilation is enabled and will use 4 of the 4 processors detected
 Info (12021): Found 1 design units, including 1 entities, in source file rca32.v
-    Info (12023): Found entity 1: rca32 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v Line: 1
+    Info (12023): Found entity 1: rca32 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v Line: 1
 Info (12021): Found 9 design units, including 9 entities, in source file gates.v
-    Info (12023): Found entity 1: _inv File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 1
-    Info (12023): Found entity 2: _and2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 8
-    Info (12023): Found entity 3: _nand2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 15
-    Info (12023): Found entity 4: _or2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 22
-    Info (12023): Found entity 5: _nor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 29
-    Info (12023): Found entity 6: _xor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 36
-    Info (12023): Found entity 7: _xnor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 43
-    Info (12023): Found entity 8: _or3 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 53
-    Info (12023): Found entity 9: _xor3 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 60
+    Info (12023): Found entity 1: _inv File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 1
+    Info (12023): Found entity 2: _and2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 8
+    Info (12023): Found entity 3: _nand2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 15
+    Info (12023): Found entity 4: _or2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 22
+    Info (12023): Found entity 5: _nor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 29
+    Info (12023): Found entity 6: _xor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 36
+    Info (12023): Found entity 7: _xnor2 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 43
+    Info (12023): Found entity 8: _or3 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 53
+    Info (12023): Found entity 9: _xor3 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 60
 Info (12021): Found 1 design units, including 1 entities, in source file ha.v
-    Info (12023): Found entity 1: ha File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/ha.v Line: 1
+    Info (12023): Found entity 1: ha File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/ha.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_ha.v
-    Info (12023): Found entity 1: tb_ha File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_ha.v Line: 3
+    Info (12023): Found entity 1: tb_ha File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_ha.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file fa.v
-    Info (12023): Found entity 1: fa File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 1
+    Info (12023): Found entity 1: fa File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_fa.v
-    Info (12023): Found entity 1: tb_fa File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_fa.v Line: 3
+    Info (12023): Found entity 1: tb_fa File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_fa.v Line: 3
 Info (12021): Found 1 design units, including 1 entities, in source file rca4.v
-    Info (12023): Found entity 1: rca4 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 1
+    Info (12023): Found entity 1: rca4 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_rca4.v
-    Info (12023): Found entity 1: tb_rca4 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v Line: 4
+    Info (12023): Found entity 1: tb_rca4 File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v Line: 4
 Info (12127): Elaborating entity "rca32" for the top level hierarchy
-Info (12128): Elaborating entity "rca4" for hierarchy "rca4:rca4_u0" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v Line: 16
-Info (12128): Elaborating entity "fa" for hierarchy "rca4:rca4_u0|fa:fa_u0" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 17
-Info (12128): Elaborating entity "_and2" for hierarchy "rca4:rca4_u0|fa:fa_u0|_and2:ad20" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 12
-Info (12128): Elaborating entity "_or3" for hierarchy "rca4:rca4_u0|fa:fa_u0|_or3:or30" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 30
-Info (12128): Elaborating entity "_xor3" for hierarchy "rca4:rca4_u0|fa:fa_u0|_xor3:xr30" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 37
+Info (12128): Elaborating entity "rca4" for hierarchy "rca4:rca4_u0" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v Line: 16
+Info (12128): Elaborating entity "fa" for hierarchy "rca4:rca4_u0|fa:fa_u0" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 17
+Info (12128): Elaborating entity "_and2" for hierarchy "rca4:rca4_u0|fa:fa_u0|_and2:ad20" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 12
+Info (12128): Elaborating entity "_or3" for hierarchy "rca4:rca4_u0|fa:fa_u0|_or3:or30" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 30
+Info (12128): Elaborating entity "_xor3" for hierarchy "rca4:rca4_u0|fa:fa_u0|_xor3:xr30" File: C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 37
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
@@ -405,9 +405,9 @@ Info (21057): Implemented 164 device resources after synthesis - the final resou
     Info (21059): Implemented 33 output pins
     Info (21061): Implemented 66 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4835 megabytes
-    Info: Processing ended: Sat Oct 01 09:01:11 2022
-    Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:17
+    Info: Peak virtual memory: 4812 megabytes
+    Info: Processing ended: Tue Oct 04 09:50:03 2022
+    Info: Elapsed time: 00:00:17
+    Info: Total CPU time (on all processors): 00:00:29
 
 

@@ -8,7 +8,7 @@ module tb_cla4;
   
   assign tb_result = {tb_co, tb_s};
   
-  cla4 U0_cla4(.a(tb_a), .b(tb_b), .ci(tb_ci), .s(tb_s), .co(tb_co));
+  cla4 U0_cla4 (.a(tb_a), .b(tb_b), .ci(tb_ci), .s(tb_s), .co(tb_co));
   
   initial begin
     tb_a = 0; tb_b = 0; tb_ci = 0;
