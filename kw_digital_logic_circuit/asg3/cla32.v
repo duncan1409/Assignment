@@ -1,11 +1,12 @@
-module cla32(
-  input ci,
-  input [31:0] a, b,
-  output [31:0] s,
-  output co
-);
+module cla32 (a, b, ci, s, co);
+  input ci;
+  input [31:0] a, b;
+  output [31:0] s;
+  output co;
+  
   wire c1, c2, c3, c4, c5, c6, c7 ;
 
+  //just connect each other like RCA 32bits previous c_out into later c_in
   cla4 U0_cla4 (.a(a[3:0]), .b(b[3:0]), .ci(ci), .s(s[3:0]), .co(c1));
   cla4 U1_cla4 (.a(a[7:4]), .b(b[7:4]), .ci(c1), .s(s[7:4]), .co(c2));
   cla4 U2_cla4 (.a(a[11:8]), .b(b[11:8]), .ci(c2), .s(s[11:8]), .co(c3));

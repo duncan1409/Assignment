@@ -10,9 +10,19 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
+# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/ha.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 22:32:02 on Oct 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/ha.v 
+# -- Compiling module ha
+# 
+# Top level modules:
+# 	ha
+# End time: 22:32:02 on Oct 05,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/gates.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:50:30 on Oct 03,2022
+# Start time: 22:32:02 on Oct 05,2022
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/gates.v 
 # -- Compiling module _inv
 # -- Compiling module _and2
@@ -30,10 +40,7 @@
 # -- Compiling module _and5
 # 
 # Top level modules:
-# 	_inv
-# 	_and2
 # 	_nand2
-# 	_or2
 # 	_nor2
 # 	_xor2
 # 	_xnor2
@@ -44,76 +51,75 @@
 # 	_and4
 # 	_or5
 # 	_and5
-# End time: 21:50:30 on Oct 03,2022, Elapsed time: 0:00:00
+# End time: 22:32:02 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/cla4.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/fa.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:50:30 on Oct 03,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/cla4.v 
-# -- Compiling module cla4
+# Start time: 22:32:02 on Oct 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/fa.v 
+# -- Compiling module fa
 # 
 # Top level modules:
-# 	cla4
-# End time: 21:50:30 on Oct 03,2022, Elapsed time: 0:00:00
+# 	fa
+# End time: 22:32:02 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/cla32.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/rca_clk.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:50:30 on Oct 03,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/cla32.v 
-# -- Compiling module cla32
+# Start time: 22:32:02 on Oct 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/rca_clk.v 
+# -- Compiling module rca_clk
 # 
 # Top level modules:
-# 	cla32
-# End time: 21:50:30 on Oct 03,2022, Elapsed time: 0:00:00
+# 	rca_clk
+# End time: 22:32:02 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/clb4.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/rca4.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:50:30 on Oct 03,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/clb4.v 
-# -- Compiling module clb4
+# Start time: 22:32:02 on Oct 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/rca4.v 
+# -- Compiling module rca4
 # 
 # Top level modules:
-# 	clb4
-# End time: 21:50:30 on Oct 03,2022, Elapsed time: 0:00:00
+# 	rca4
+# End time: 22:32:02 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/fa_v2.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/rca32.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:50:30 on Oct 03,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/fa_v2.v 
-# -- Compiling module fa_v2
+# Start time: 22:32:02 on Oct 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/rca32.v 
+# -- Compiling module rca32
 # 
 # Top level modules:
-# 	fa_v2
-# End time: 21:50:30 on Oct 03,2022, Elapsed time: 0:00:00
+# 	rca32
+# End time: 22:32:02 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/tb_cla32.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3 {C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/tb_rca_clk.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 21:50:30 on Oct 03,2022
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/tb_cla32.v 
-# -- Compiling module tb_cla32
+# Start time: 22:32:02 on Oct 05,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3" C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/tb_rca_clk.v 
+# -- Compiling module tb_rca_clk
 # 
 # Top level modules:
-# 	tb_cla32
-# End time: 21:50:30 on Oct 03,2022, Elapsed time: 0:00:00
+# 	tb_rca_clk
+# End time: 22:32:02 on Oct 05,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_cla32
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_cla32 
-# Start time: 21:50:30 on Oct 03,2022
-# Loading work.tb_cla32
-# Loading work.cla4
-# Loading work.fa_v2
-# Loading work._xor3
-# Loading work.clb4
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  tb_rca_clk
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" tb_rca_clk 
+# Start time: 22:32:02 on Oct 05,2022
+# Loading work.tb_rca_clk
+# Loading work.rca_clk
+# Loading work.rca32
+# Loading work.rca4
+# Loading work.fa
+# Loading work.ha
+# Loading work._xor2
+# Loading work._inv
 # Loading work._and2
 # Loading work._or2
-# Loading work._and3
-# Loading work._or3
-# Loading work._and4
-# Loading work._or4
-# Loading work._and5
-# Loading work._or5
+# ** Warning: (vsim-3015) C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/rca32.v(10): [PCDPC] - Port size (1) does not match connection size (4) for port 'co'. The port definition is at: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/rca4.v(4).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_rca_clk/U0_cla_clk/U0_rca32/U0_rca4 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/rca4.v
 # 
 # add wave *
 # view structure
@@ -121,8 +127,8 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# ** Note: $stop    : C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/tb_cla32.v(22)
-#    Time: 70 ns  Iteration: 0  Instance: /tb_cla32
-# Break in Module tb_cla32 at C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/tb_cla32.v line 22
-# End time: 21:51:08 on Oct 03,2022, Elapsed time: 0:00:38
-# Errors: 0, Warnings: 0
+# ** Note: $stop    : C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/tb_rca_clk.v(20)
+#    Time: 70 ns  Iteration: 0  Instance: /tb_rca_clk
+# Break in Module tb_rca_clk at C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg3/tb_rca_clk.v line 20
+# End time: 23:27:26 on Oct 05,2022, Elapsed time: 0:55:24
+# Errors: 0, Warnings: 1

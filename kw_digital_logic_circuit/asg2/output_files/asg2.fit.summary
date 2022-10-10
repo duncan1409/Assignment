@@ -1,13 +1,13 @@
-Fitter Status : Successful - Sat Oct 01 09:01:47 2022
+Fitter Status : Successful - Wed Oct 05 20:32:14 2022
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : asg2
-Top-level Entity Name : rca32
+Top-level Entity Name : fa
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
-Logic utilization (in ALMs) : 42 / 41,910 ( < 1 % )
+Logic utilization (in ALMs) : 2 / 41,910 ( < 1 % )
 Total registers : 0
-Total pins : 98 / 499 ( 20 % )
+Total pins : 5 / 499 ( 1 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 5,662,720 ( 0 % )
 Total RAM Blocks : 0 / 553 ( 0 % )

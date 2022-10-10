@@ -1,5 +1,5 @@
 Flow report for asg2
-Sat Oct 01 09:02:00 2022
+Wed Oct 05 20:32:27 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,16 +40,16 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Flow Summary                                                                  ;
 +---------------------------------+---------------------------------------------+
-; Flow Status                     ; Successful - Sat Oct 01 09:02:00 2022       ;
+; Flow Status                     ; Successful - Wed Oct 05 20:32:27 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; asg2                                        ;
-; Top-level Entity Name           ; rca32                                       ;
+; Top-level Entity Name           ; fa                                          ;
 ; Family                          ; Cyclone V                                   ;
 ; Device                          ; 5CSXFC6D6F31C6                              ;
 ; Timing Models                   ; Final                                       ;
-; Logic utilization (in ALMs)     ; 42 / 41,910 ( < 1 % )                       ;
+; Logic utilization (in ALMs)     ; 2 / 41,910 ( < 1 % )                        ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 98 / 499 ( 20 % )                           ;
+; Total pins                      ; 5 / 499 ( 1 % )                             ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                       ;
 ; Total DSP Blocks                ; 0 / 112 ( 0 % )                             ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 10/01/2022 09:01:03 ;
+; Start date & time ; 10/05/2022 20:31:42 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; asg2                ;
 +-------------------+---------------------+
@@ -78,33 +78,37 @@ refer to the applicable agreement for further details.
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                      ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                ; 237901784597189.166458246315800        ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                ; 237901784597189.166496950122044        ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_rca4        ;
+; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb             ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_fa          ;
 ; EDA_DESIGN_INSTANCE_NAME             ; NA                                     ; --            ; --          ; tb_ha          ;
-; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb_rca4                                ; --            ; --          ; eda_simulation ;
+; EDA_NATIVELINK_SIMULATION_TEST_BENCH ; tb                                     ; --            ; --          ; eda_simulation ;
 ; EDA_OUTPUT_DATA_FORMAT               ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                  ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TEST_BENCH_ENABLE_STATUS         ; TEST_BENCH_MODE                        ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_FILE                  ; tb_rca4.v                              ; --            ; --          ; tb_rca4        ;
+; EDA_TEST_BENCH_FILE                  ; tb.v                                   ; --            ; --          ; tb             ;
 ; EDA_TEST_BENCH_FILE                  ; tb_fa.v                                ; --            ; --          ; tb_fa          ;
 ; EDA_TEST_BENCH_FILE                  ; tb_ha.v                                ; --            ; --          ; tb_ha          ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_rca4                                ; --            ; --          ; tb_rca4        ;
+; EDA_TEST_BENCH_MODULE_NAME           ; tb                                     ; --            ; --          ; tb             ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_fa                                  ; --            ; --          ; tb_fa          ;
 ; EDA_TEST_BENCH_MODULE_NAME           ; tb_ha                                  ; --            ; --          ; tb_ha          ;
 ; EDA_TEST_BENCH_NAME                  ; tb_ha                                  ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                  ; tb_fa                                  ; --            ; --          ; eda_simulation ;
 ; EDA_TEST_BENCH_NAME                  ; tb_rca4                                ; --            ; --          ; eda_simulation ;
+; EDA_TEST_BENCH_NAME                  ; tb                                     ; --            ; --          ; eda_simulation ;
 ; EDA_TIME_SCALE                       ; 1 ps                                   ; --            ; --          ; eda_simulation ;
 ; MAX_CORE_JUNCTION_TEMP               ; 85                                     ; --            ; --          ; --             ;
 ; MIN_CORE_JUNCTION_TEMP               ; 0                                      ; --            ; --          ; --             ;
-; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; rca32       ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; rca32       ; Top            ;
-; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; rca32       ; Top            ;
+; PARTITION_COLOR                      ; -- (Not supported for targeted family) ; --            ; fa          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL  ; -- (Not supported for targeted family) ; --            ; fa          ; Top            ;
+; PARTITION_NETLIST_TYPE               ; -- (Not supported for targeted family) ; --            ; fa          ; Top            ;
 ; POWER_BOARD_THERMAL_MODEL            ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
 ; POWER_PRESET_COOLING_SOLUTION        ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
 ; PROJECT_OUTPUT_DIRECTORY             ; output_files                           ; --            ; --          ; --             ;
-; TOP_LEVEL_ENTITY                     ; rca32                                  ; asg2          ; --          ; --             ;
+; TOP_LEVEL_ENTITY                     ; fa                                     ; asg2          ; --          ; --             ;
 +--------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
@@ -113,12 +117,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:07     ; 1.0                     ; 4835 MB             ; 00:00:17                           ;
-; Fitter               ; 00:00:36     ; 1.0                     ; 7001 MB             ; 00:01:57                           ;
-; Assembler            ; 00:00:05     ; 1.0                     ; 4825 MB             ; 00:00:05                           ;
-; Timing Analyzer      ; 00:00:04     ; 1.1                     ; 5175 MB             ; 00:00:04                           ;
-; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4737 MB             ; 00:00:01                           ;
-; Total                ; 00:00:53     ; --                      ; --                  ; 00:02:24                           ;
+; Analysis & Synthesis ; 00:00:08     ; 1.0                     ; 4838 MB             ; 00:00:17                           ;
+; Fitter               ; 00:00:24     ; 1.0                     ; 6941 MB             ; 00:01:08                           ;
+; Assembler            ; 00:00:05     ; 1.0                     ; 4828 MB             ; 00:00:05                           ;
+; Timing Analyzer      ; 00:00:04     ; 1.0                     ; 5168 MB             ; 00:00:04                           ;
+; EDA Netlist Writer   ; 00:00:01     ; 1.0                     ; 4724 MB             ; 00:00:01                           ;
+; Total                ; 00:00:42     ; --                      ; --                  ; 00:01:35                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

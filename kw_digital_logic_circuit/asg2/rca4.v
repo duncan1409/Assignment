@@ -1,15 +1,14 @@
-module rca4 (
-	input ci,
-	input [3:0] a, b,
-	output co,
-	output [3:0] s
-	);
+module rca4 (a, b, ci, s, co) ;
+	input ci ;
+	input [3:0] a, b ;
+	output co ;
+	output [3:0] s ;
 	
 	//3 c connects each full adder.
 	wire [2:0] c;
 	
 	fa fa_u0 (
-		.ci(ci),
+		.ci (ci),
 		.a (a[0]),
 		.b (b[0]),
 		.co (c[0]),

@@ -1,23 +1,24 @@
+//for cla32
 `timescale 1ns/100ps
+
 module tb_cla32;
-  reg [3:0] tb_a, tb_b; 
-  reg tb_ci;
-  wire [3:0] tb_s;
-  wire tb_co;
-  wire [4:0] tb_result;
-  
-  assign tb_result = {tb_co, tb_s};
-  
-  cla4 U0_cla4(.a(tb_a), .b(tb_b), .ci(tb_ci), .s(tb_s), .co(tb_co));
-  
-  initial begin
-    tb_a = 0; tb_b = 0; tb_ci = 0;
-    #10; tb_a = 4'h3; tb_b = 4'h5; tb_ci = 0;
-    #10; tb_a = 4'h7; tb_b = 4'h9; tb_ci = 0;
-    #10; tb_a = 4'h5; tb_b = 4'h5; tb_ci = 1;
-    #10; tb_a = 4'h8; tb_b = 4'h7; tb_ci = 1;
-    #10; tb_a = 4'hf; tb_b = 4'hf; tb_ci = 0;
-    #10; tb_a = 4'hf; tb_b = 4'hf; tb_ci = 1;
+	
+	reg tb_ci;
+	reg [31:0] tb_a, tb_b;
+	wire tb_co;
+	wire [31:0] tb_s;
+	
+	//named mapping
+	cla32 U0_cla32(.ci (tb_ci), .a (tb_a), .b (tb_b), .co (tb_co), .s (tb_s));
+	
+	initial begin
+	//radix = hexadecimal
+         tb_a = 32'h0; tb_b = 32'h0; tb_ci = 1'b0;
+    #10; tb_a = 32'hABAB_BABA; tb_b = 32'h1234_5678; tb_ci = 1'b1;
+    #10; tb_a = 32'h0000_FFFF; tb_b = 32'hFFFF_0000; tb_ci = 1'b0;
+    #10; tb_a = 32'h2468_1357; tb_b = 32'h7531_8642; tb_ci = 1'b1;
+    #10; tb_a = 32'hFEDC_BA98; tb_b = 32'h89AB_CDEF; tb_ci = 1'b0;
+    #10; tb_a = 32'h135F_A562; tb_b = 32'hEFAB_2445; tb_ci = 1'b1;
     #10; $stop;
-  end
+	end
 endmodule

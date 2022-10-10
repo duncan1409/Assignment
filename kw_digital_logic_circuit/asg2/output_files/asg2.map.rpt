@@ -1,5 +1,5 @@
 Analysis & Synthesis report for asg2
-Sat Oct 01 09:01:11 2022
+Wed Oct 05 20:31:49 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -14,10 +14,9 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   6. Analysis & Synthesis Resource Usage Summary
   7. Analysis & Synthesis Resource Utilization by Entity
   8. General Register Statistics
-  9. Port Connectivity Checks: "rca4:rca4_u0"
- 10. Post-Synthesis Netlist Statistics for Top Partition
- 11. Elapsed Time Per Partition
- 12. Analysis & Synthesis Messages
+  9. Post-Synthesis Netlist Statistics for Top Partition
+ 10. Elapsed Time Per Partition
+ 11. Analysis & Synthesis Messages
 
 
 
@@ -43,14 +42,14 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Sat Oct 01 09:01:10 2022       ;
+; Analysis & Synthesis Status     ; Successful - Wed Oct 05 20:31:49 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; asg2                                        ;
-; Top-level Entity Name           ; rca32                                       ;
+; Top-level Entity Name           ; fa                                          ;
 ; Family                          ; Cyclone V                                   ;
 ; Logic utilization (in ALMs)     ; N/A                                         ;
 ; Total registers                 ; 0                                           ;
-; Total pins                      ; 98                                          ;
+; Total pins                      ; 5                                           ;
 ; Total virtual pins              ; 0                                           ;
 ; Total block memory bits         ; 0                                           ;
 ; Total DSP Blocks                ; 0                                           ;
@@ -69,7 +68,7 @@ refer to the applicable agreement for further details.
 ; Option                                                                          ; Setting            ; Default Value      ;
 +---------------------------------------------------------------------------------+--------------------+--------------------+
 ; Device                                                                          ; 5CSXFC6D6F31C6     ;                    ;
-; Top-level entity name                                                           ; rca32              ; asg2               ;
+; Top-level entity name                                                           ; fa                 ; asg2               ;
 ; Family name                                                                     ; Cyclone V          ; Cyclone V          ;
 ; Use smart compilation                                                           ; Off                ; Off                ;
 ; Enable parallel Assembler and Timing Analyzer during compilation                ; On                 ; On                 ;
@@ -171,136 +170,50 @@ refer to the applicable agreement for further details.
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
 ; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                              ; Library ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
-; rca32.v                          ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v ;         ;
 ; gates.v                          ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v ;         ;
+; ha.v                             ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/ha.v    ;         ;
 ; fa.v                             ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v    ;         ;
-; rca4.v                           ; yes             ; User Verilog HDL File  ; C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v  ;         ;
 +----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------+---------+
 
 
-+-----------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Usage Summary                                       ;
-+---------------------------------------------+-------------------------------------+
-; Resource                                    ; Usage                               ;
-+---------------------------------------------+-------------------------------------+
-; Estimate of Logic utilization (ALMs needed) ; 42                                  ;
-;                                             ;                                     ;
-; Combinational ALUT usage for logic          ; 66                                  ;
-;     -- 7 input functions                    ; 0                                   ;
-;     -- 6 input functions                    ; 17                                  ;
-;     -- 5 input functions                    ; 12                                  ;
-;     -- 4 input functions                    ; 3                                   ;
-;     -- <=3 input functions                  ; 34                                  ;
-;                                             ;                                     ;
-; Dedicated logic registers                   ; 0                                   ;
-;                                             ;                                     ;
-; I/O pins                                    ; 98                                  ;
-;                                             ;                                     ;
-; Total DSP Blocks                            ; 0                                   ;
-;                                             ;                                     ;
-; Maximum fan-out node                        ; rca4:rca4_u0|fa:fa_u1|_or3:or30|y~0 ;
-; Maximum fan-out                             ; 4                                   ;
-; Total fan-out                               ; 390                                 ;
-; Average fan-out                             ; 1.49                                ;
-+---------------------------------------------+-------------------------------------+
++--------------------------------------------------------+
+; Analysis & Synthesis Resource Usage Summary            ;
++---------------------------------------------+----------+
+; Resource                                    ; Usage    ;
++---------------------------------------------+----------+
+; Estimate of Logic utilization (ALMs needed) ; 1        ;
+;                                             ;          ;
+; Combinational ALUT usage for logic          ; 2        ;
+;     -- 7 input functions                    ; 0        ;
+;     -- 6 input functions                    ; 0        ;
+;     -- 5 input functions                    ; 0        ;
+;     -- 4 input functions                    ; 0        ;
+;     -- <=3 input functions                  ; 2        ;
+;                                             ;          ;
+; Dedicated logic registers                   ; 0        ;
+;                                             ;          ;
+; I/O pins                                    ; 5        ;
+;                                             ;          ;
+; Total DSP Blocks                            ; 0        ;
+;                                             ;          ;
+; Maximum fan-out node                        ; ci~input ;
+; Maximum fan-out                             ; 2        ;
+; Total fan-out                               ; 13       ;
+; Average fan-out                             ; 1.08     ;
++---------------------------------------------+----------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                        ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------+-------------+--------------+
-; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                     ; Entity Name ; Library Name ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------+-------------+--------------+
-; |rca32                     ; 66 (0)              ; 0 (0)                     ; 0                 ; 0          ; 98   ; 0            ; |rca32                                  ; rca32       ; work         ;
-;    |rca4:rca4_u0|          ; 6 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0                     ; rca4        ; work         ;
-;       |fa:fa_u0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u0            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u0|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u1|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u1            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u1|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u1|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u2|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u2            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u2|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u3|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u3            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u3|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u0|fa:fa_u3|_xor3:xr30 ; _xor3       ; work         ;
-;    |rca4:rca4_u1|          ; 9 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1                     ; rca4        ; work         ;
-;       |fa:fa_u0|           ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u0            ; fa          ; work         ;
-;          |_or3:or30|       ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u0|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u0|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u1|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u1            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u1|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u2|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u2            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u2|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u2|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u3|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u3            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u3|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u1|fa:fa_u3|_xor3:xr30 ; _xor3       ; work         ;
-;    |rca4:rca4_u2|          ; 9 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2                     ; rca4        ; work         ;
-;       |fa:fa_u0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u0            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u0|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u1|           ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u1            ; fa          ; work         ;
-;          |_or3:or30|       ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u1|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u1|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u2|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u2            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u2|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u3|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u3            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u3|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u2|fa:fa_u3|_xor3:xr30 ; _xor3       ; work         ;
-;    |rca4:rca4_u3|          ; 9 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3                     ; rca4        ; work         ;
-;       |fa:fa_u0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u0            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u0|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u0|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u1|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u1            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u1|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u2|           ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u2            ; fa          ; work         ;
-;          |_or3:or30|       ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u2|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u2|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u3|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u3            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u3|fa:fa_u3|_xor3:xr30 ; _xor3       ; work         ;
-;    |rca4:rca4_u4|          ; 10 (0)              ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4                     ; rca4        ; work         ;
-;       |fa:fa_u0|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u0            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u0|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u0|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u1|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u1            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u1|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u1|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u2|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u2            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u2|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u3|           ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u3            ; fa          ; work         ;
-;          |_or3:or30|       ; 4 (4)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u3|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u4|fa:fa_u3|_xor3:xr30 ; _xor3       ; work         ;
-;    |rca4:rca4_u5|          ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5                     ; rca4        ; work         ;
-;       |fa:fa_u0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5|fa:fa_u0            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5|fa:fa_u0|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u1|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5|fa:fa_u1            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5|fa:fa_u1|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5|fa:fa_u1|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u2|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5|fa:fa_u2            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5|fa:fa_u2|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u3|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5|fa:fa_u3            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u5|fa:fa_u3|_xor3:xr30 ; _xor3       ; work         ;
-;    |rca4:rca4_u6|          ; 9 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6                     ; rca4        ; work         ;
-;       |fa:fa_u0|           ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u0            ; fa          ; work         ;
-;          |_or3:or30|       ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u0|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u0|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u1|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u1            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u1|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u2|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u2            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u2|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u2|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u3|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u3            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u6|fa:fa_u3|_xor3:xr30 ; _xor3       ; work         ;
-;    |rca4:rca4_u7|          ; 9 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7                     ; rca4        ; work         ;
-;       |fa:fa_u0|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u0            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u0|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u1|           ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u1            ; fa          ; work         ;
-;          |_or3:or30|       ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u1|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 2 (2)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u1|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u2|           ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u2            ; fa          ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u2|_xor3:xr30 ; _xor3       ; work         ;
-;       |fa:fa_u3|           ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u3            ; fa          ; work         ;
-;          |_or3:or30|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u3|_or3:or30  ; _or3        ; work         ;
-;          |_xor3:xr30|      ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |rca32|rca4:rca4_u7|fa:fa_u3|_xor3:xr30 ; _xor3       ; work         ;
-+----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+-----------------------------------------+-------------+--------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Resource Utilization by Entity                                                                                                                                                       ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------+-------------+--------------+
+; Compilation Hierarchy Node ; Combinational ALUTs ; Dedicated Logic Registers ; Block Memory Bits ; DSP Blocks ; Pins ; Virtual Pins ; Full Hierarchy Name                    ; Entity Name ; Library Name ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------+-------------+--------------+
+; |fa                        ; 2 (0)               ; 0 (0)                     ; 0                 ; 0          ; 5    ; 0            ; |fa                                    ; fa          ; work         ;
+;    |_or2:U2_or2|           ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fa|_or2:U2_or2                        ; _or2        ; work         ;
+;    |ha:U1_ha|              ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fa|ha:U1_ha                           ; ha          ; work         ;
+;       |_xor2:U0_xor2|      ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fa|ha:U1_ha|_xor2:U0_xor2             ; _xor2       ; work         ;
+;          |_or2:U4_or2|     ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |fa|ha:U1_ha|_xor2:U0_xor2|_or2:U4_or2 ; _or2        ; work         ;
++----------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+----------------------------------------+-------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
 
 
@@ -319,31 +232,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------------------------------------+-------+
 
 
-+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "rca4:rca4_u0"                                                                                                                                                         ;
-+------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type   ; Severity ; Details                                                                                                                                                               ;
-+------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; co   ; Output ; Warning  ; Output or bidir port (1 bits) is smaller than the port expression (4 bits) it drives.  The 3 most-significant bit(s) in the port expression will be connected to GND. ;
-+------+--------+----------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-
-
 +-----------------------------------------------------+
 ; Post-Synthesis Netlist Statistics for Top Partition ;
 +-----------------------+-----------------------------+
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
-; arriav_lcell_comb     ; 66                          ;
-;     normal            ; 66                          ;
-;         2 data inputs ; 17                          ;
-;         3 data inputs ; 17                          ;
-;         4 data inputs ; 3                           ;
-;         5 data inputs ; 12                          ;
-;         6 data inputs ; 17                          ;
-; boundary_port         ; 98                          ;
+; arriav_lcell_comb     ; 2                           ;
+;     normal            ; 2                           ;
+;         3 data inputs ; 2                           ;
+; boundary_port         ; 5                           ;
 ;                       ;                             ;
-; Max LUT depth         ; 13.00                       ;
-; Average LUT depth     ; 7.79                        ;
+; Max LUT depth         ; 1.00                        ;
+; Average LUT depth     ; 1.00                        ;
 +-----------------------+-----------------------------+
 
 
@@ -362,7 +262,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Sat Oct 01 09:01:03 2022
+    Info: Processing started: Wed Oct 05 20:31:41 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off asg2 -c asg2
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -375,9 +275,9 @@ Info (12021): Found 9 design units, including 9 entities, in source file gates.v
     Info (12023): Found entity 4: _or2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 22
     Info (12023): Found entity 5: _nor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 29
     Info (12023): Found entity 6: _xor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 36
-    Info (12023): Found entity 7: _xnor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 43
-    Info (12023): Found entity 8: _or3 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 53
-    Info (12023): Found entity 9: _xor3 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 60
+    Info (12023): Found entity 7: _xnor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 50
+    Info (12023): Found entity 8: _or3 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 60
+    Info (12023): Found entity 9: _xor3 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 67
 Info (12021): Found 1 design units, including 1 entities, in source file ha.v
     Info (12023): Found entity 1: ha File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/ha.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_ha.v
@@ -390,23 +290,26 @@ Info (12021): Found 1 design units, including 1 entities, in source file rca4.v
     Info (12023): Found entity 1: rca4 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 1
 Info (12021): Found 1 design units, including 1 entities, in source file tb_rca4.v
     Info (12023): Found entity 1: tb_rca4 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb_rca4.v Line: 4
-Info (12127): Elaborating entity "rca32" for the top level hierarchy
-Info (12128): Elaborating entity "rca4" for hierarchy "rca4:rca4_u0" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca32.v Line: 16
-Info (12128): Elaborating entity "fa" for hierarchy "rca4:rca4_u0|fa:fa_u0" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/rca4.v Line: 17
-Info (12128): Elaborating entity "_and2" for hierarchy "rca4:rca4_u0|fa:fa_u0|_and2:ad20" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 12
-Info (12128): Elaborating entity "_or3" for hierarchy "rca4:rca4_u0|fa:fa_u0|_or3:or30" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 30
-Info (12128): Elaborating entity "_xor3" for hierarchy "rca4:rca4_u0|fa:fa_u0|_xor3:xr30" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 37
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
+Info (12021): Found 1 design units, including 1 entities, in source file tb.v
+    Info (12023): Found entity 1: tb File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/tb.v Line: 3
+Info (12021): Found 1 design units, including 1 entities, in source file xor2.v
+    Info (12023): Found entity 1: xor2 File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/xor2.v Line: 1
+Info (12127): Elaborating entity "fa" for the top level hierarchy
+Info (12128): Elaborating entity "ha" for hierarchy "ha:U0_ha" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/fa.v Line: 7
+Info (12128): Elaborating entity "_xor2" for hierarchy "ha:U0_ha|_xor2:U0_xor2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/ha.v Line: 5
+Info (12128): Elaborating entity "_inv" for hierarchy "ha:U0_ha|_xor2:U0_xor2|_inv:U0_inv" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 42
+Info (12128): Elaborating entity "_and2" for hierarchy "ha:U0_ha|_xor2:U0_xor2|_and2:U2_and2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 44
+Info (12128): Elaborating entity "_or2" for hierarchy "ha:U0_ha|_xor2:U0_xor2|_or2:U4_or2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg2/gates.v Line: 46
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 164 device resources after synthesis - the final resource count might be different
-    Info (21058): Implemented 65 input pins
-    Info (21059): Implemented 33 output pins
-    Info (21061): Implemented 66 logic cells
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 2 warnings
-    Info: Peak virtual memory: 4835 megabytes
-    Info: Processing ended: Sat Oct 01 09:01:11 2022
+Info (21057): Implemented 7 device resources after synthesis - the final resource count might be different
+    Info (21058): Implemented 3 input pins
+    Info (21059): Implemented 2 output pins
+    Info (21061): Implemented 2 logic cells
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
+    Info: Peak virtual memory: 4838 megabytes
+    Info: Processing ended: Wed Oct 05 20:31:49 2022
     Info: Elapsed time: 00:00:08
     Info: Total CPU time (on all processors): 00:00:17
 
