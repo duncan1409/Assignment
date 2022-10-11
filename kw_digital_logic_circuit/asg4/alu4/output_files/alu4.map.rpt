@@ -1,5 +1,5 @@
 Analysis & Synthesis report for alu4
-Mon Oct 10 21:00:52 2022
+Wed Oct 12 05:05:32 2022
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -42,7 +42,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                  ;
 +---------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status     ; Successful - Mon Oct 10 21:00:52 2022       ;
+; Analysis & Synthesis Status     ; Successful - Wed Oct 12 05:05:32 2022       ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                   ; alu4                                        ;
 ; Top-level Entity Name           ; alu4                                        ;
@@ -217,11 +217,11 @@ refer to the applicable agreement for further details.
 +-------------------------------+---------------------+---------------------------+-------------------+------------+------+--------------+--------------------------------------------------------------------+-------------+--------------+
 ; |alu4                         ; 12 (0)              ; 0 (0)                     ; 0                 ; 0          ; 19   ; 0            ; |alu4                                                              ; alu4        ; work         ;
 ;    |cal_flags4:U8_cal_flags4| ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cal_flags4:U8_cal_flags4                                     ; cal_flags4  ; work         ;
-;    |cla4_ov:U7_adder|         ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder                                             ; cla4_ov     ; work         ;
-;       |clb4:U4_clb4|          ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder|clb4:U4_clb4                                ; clb4        ; work         ;
-;          |_or2:U9_or2|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder|clb4:U4_clb4|_or2:U9_or2                    ; _or2        ; work         ;
-;          |_or4:U16_or4|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder|clb4:U4_clb4|_or4:U16_or4                   ; _or4        ; work         ;
-;          |_or5:U21_or4|       ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_adder|clb4:U4_clb4|_or5:U21_or4                   ; _or5        ; work         ;
+;    |cla4_ov:U7_cla4_ov|       ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_cla4_ov                                           ; cla4_ov     ; work         ;
+;       |clb4:U4_clb4|          ; 5 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_cla4_ov|clb4:U4_clb4                              ; clb4        ; work         ;
+;          |_or2:U9_or2|        ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_or2:U9_or2                  ; _or2        ; work         ;
+;          |_or4:U16_or4|       ; 1 (1)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_or4:U16_or4                 ; _or4        ; work         ;
+;          |_or5:U21_or4|       ; 3 (3)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|cla4_ov:U7_cla4_ov|clb4:U4_clb4|_or5:U21_or4                 ; _or5        ; work         ;
 ;    |mx8_4bits:U7_mx8_4bits|   ; 4 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|mx8_4bits:U7_mx8_4bits                                       ; mx8_4bits   ; work         ;
 ;       |mx8:U0_mx8|            ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8                            ; mx8         ; work         ;
 ;          |mx2:U6_mx2|         ; 1 (0)               ; 0 (0)                     ; 0                 ; 0          ; 0    ; 0            ; |alu4|mx8_4bits:U7_mx8_4bits|mx8:U0_mx8|mx2:U6_mx2                 ; mx2         ; work         ;
@@ -287,7 +287,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Mon Oct 10 21:00:44 2022
+    Info: Processing started: Wed Oct 12 05:05:24 2022
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off alu4 -c alu4
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 8 of the 8 processors detected
@@ -346,21 +346,21 @@ Info (12128): Elaborating entity "_inv" for hierarchy "_xor2_4bits:U4_xor2_4bits
 Info (12128): Elaborating entity "_and2" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_and2:U2_and2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/gates.v Line: 48
 Info (12128): Elaborating entity "_or2" for hierarchy "_xor2_4bits:U4_xor2_4bits|_xor2:U0_xor2|_or2:U4_or2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/gates.v Line: 50
 Info (12128): Elaborating entity "_xnor2_4bits" for hierarchy "_xnor2_4bits:U5_xnor2_4bits" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v Line: 16
-Info (12128): Elaborating entity "mx2_4bits" for hierarchy "mx2_4bits:U6_mux_b" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v Line: 18
-Info (12128): Elaborating entity "mx2" for hierarchy "mx2_4bits:U6_mux_b|mx2:U0_mx2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2_4bits.v Line: 6
-Info (12128): Elaborating entity "_nand2" for hierarchy "mx2_4bits:U6_mux_b|mx2:U0_mx2|_nand2:U1_nand2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2.v Line: 8
-Info (12128): Elaborating entity "cla4_ov" for hierarchy "cla4_ov:U7_adder" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v Line: 19
-Info (12128): Elaborating entity "fa_v2" for hierarchy "cla4_ov:U7_adder|fa_v2:U0_fa" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cla4_ov.v Line: 8
-Info (12128): Elaborating entity "clb4" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cla4_ov.v Line: 13
-Info (12128): Elaborating entity "_and3" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_and3:U11_and3" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 29
-Info (12128): Elaborating entity "_or3" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_or3:U12_or3" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 30
-Info (12128): Elaborating entity "_and4" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_and4:U15_and4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 35
-Info (12128): Elaborating entity "_or4" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_or4:U16_or4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 36
-Info (12128): Elaborating entity "_and5" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_and5:U20_and5" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 43
-Info (12128): Elaborating entity "_or5" for hierarchy "cla4_ov:U7_adder|clb4:U4_clb4|_or5:U21_or4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 44
-Info (12128): Elaborating entity "mx8_4bits" for hierarchy "mx8_4bits:U7_mx8_4bits" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v Line: 20
+Info (12128): Elaborating entity "mx2_4bits" for hierarchy "mx2_4bits:U6_mux_b_4bits" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v Line: 20
+Info (12128): Elaborating entity "mx2" for hierarchy "mx2_4bits:U6_mux_b_4bits|mx2:U0_mx2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2_4bits.v Line: 6
+Info (12128): Elaborating entity "_nand2" for hierarchy "mx2_4bits:U6_mux_b_4bits|mx2:U0_mx2|_nand2:U1_nand2" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2.v Line: 8
+Info (12128): Elaborating entity "cla4_ov" for hierarchy "cla4_ov:U7_cla4_ov" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v Line: 22
+Info (12128): Elaborating entity "fa_v2" for hierarchy "cla4_ov:U7_cla4_ov|fa_v2:U0_fa" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cla4_ov.v Line: 10
+Info (12128): Elaborating entity "clb4" for hierarchy "cla4_ov:U7_cla4_ov|clb4:U4_clb4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cla4_ov.v Line: 15
+Info (12128): Elaborating entity "_and3" for hierarchy "cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and3:U11_and3" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 29
+Info (12128): Elaborating entity "_or3" for hierarchy "cla4_ov:U7_cla4_ov|clb4:U4_clb4|_or3:U12_or3" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 30
+Info (12128): Elaborating entity "_and4" for hierarchy "cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and4:U15_and4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 35
+Info (12128): Elaborating entity "_or4" for hierarchy "cla4_ov:U7_cla4_ov|clb4:U4_clb4|_or4:U16_or4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 36
+Info (12128): Elaborating entity "_and5" for hierarchy "cla4_ov:U7_cla4_ov|clb4:U4_clb4|_and5:U20_and5" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 43
+Info (12128): Elaborating entity "_or5" for hierarchy "cla4_ov:U7_cla4_ov|clb4:U4_clb4|_or5:U21_or4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v Line: 44
+Info (12128): Elaborating entity "mx8_4bits" for hierarchy "mx8_4bits:U7_mx8_4bits" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v Line: 24
 Info (12128): Elaborating entity "mx8" for hierarchy "mx8_4bits:U7_mx8_4bits|mx8:U0_mx8" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx8_4bits.v Line: 6
-Info (12128): Elaborating entity "cal_flags4" for hierarchy "cal_flags4:U8_cal_flags4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v Line: 21
+Info (12128): Elaborating entity "cal_flags4" for hierarchy "cal_flags4:U8_cal_flags4" File: C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v Line: 26
 Info (286030): Timing-Driven Synthesis is running
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
@@ -369,9 +369,9 @@ Info (21057): Implemented 31 device resources after synthesis - the final resour
     Info (21059): Implemented 8 output pins
     Info (21061): Implemented 12 logic cells
 Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 4841 megabytes
-    Info: Processing ended: Mon Oct 10 21:00:52 2022
+    Info: Peak virtual memory: 4839 megabytes
+    Info: Processing ended: Wed Oct 12 05:05:32 2022
     Info: Elapsed time: 00:00:08
-    Info: Total CPU time (on all processors): 00:00:18
+    Info: Total CPU time (on all processors): 00:00:17
 
 
