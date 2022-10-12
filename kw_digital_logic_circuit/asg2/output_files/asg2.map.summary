@@ -1,11 +1,15 @@
+<<<<<<< HEAD
 Analysis & Synthesis Status : Successful - Tue Oct 04 09:50:03 2022
+=======
+Analysis & Synthesis Status : Successful - Wed Oct 05 20:31:49 2022
+>>>>>>> 33d23aa25eaec0d6c1cc30c64f8d0011050ef000
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : asg2
-Top-level Entity Name : rca32
+Top-level Entity Name : fa
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
 Total registers : 0
-Total pins : 98
+Total pins : 5
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

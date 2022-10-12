@@ -4,7 +4,7 @@ input [31:0]a, b,
 output co,
 output [31:0] s
 );
-//3 c connects each full adder.
+//to connect each full adder.
 wire [6:0] c;
 
 rca4 U0_rca4(
@@ -14,7 +14,7 @@ rca4 U0_rca4(
 		.co (c[3:0]),
 		.s (s[3:0])
 );
-//c_out of the previous ripple carry adder becomes c_in of the later ripple carry adder.
+//c_out of the previous RCA becomes c_in of the later RCA.
 rca4 U1_rca4 (
 		.ci(c[0]),
 		.a (a[7:4]),

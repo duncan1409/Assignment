@@ -1,11 +1,19 @@
+<<<<<<< HEAD
 Fitter Status : Successful - Tue Oct 04 09:08:08 2022
+=======
+Fitter Status : Successful - Wed Oct 05 23:24:01 2022
+>>>>>>> 33d23aa25eaec0d6c1cc30c64f8d0011050ef000
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : asg3
 Top-level Entity Name : cla_clk
 Family : Cyclone V
 Device : 5CSXFC6D6F31C6
 Timing Models : Final
+<<<<<<< HEAD
 Logic utilization (in ALMs) : 37 / 41,910 ( < 1 % )
+=======
+Logic utilization (in ALMs) : 43 / 41,910 ( < 1 % )
+>>>>>>> 33d23aa25eaec0d6c1cc30c64f8d0011050ef000
 Total registers : 98
 Total pins : 99 / 499 ( 20 % )
 Total virtual pins : 0

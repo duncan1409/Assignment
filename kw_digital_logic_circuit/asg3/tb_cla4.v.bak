@@ -6,6 +6,7 @@ module tb_cla4;
   wire tb_co;
   wire [4:0] tb_result;
   
+<<<<<<< HEAD
   assign tb_result = {tb_co, tb_s};
   
   cla4 U0_cla4(.a(tb_a), .b(tb_b), .ci(tb_ci), .s(tb_s), .co(tb_co));
@@ -18,6 +19,19 @@ module tb_cla4;
     #10; tb_a = 4'h8; tb_b = 4'h7; tb_ci = 1;
     #10; tb_a = 4'hf; tb_b = 4'hf; tb_ci = 0;
     #10; tb_a = 4'hf; tb_b = 4'hf; tb_ci = 1;
+=======
+  cla4 U0_cla4(.a(tb_a), .b(tb_b), .ci(tb_ci), .s(tb_s), .co(tb_co));
+  
+  initial begin
+  //radix = hexadecimal
+    tb_a = 0; tb_b = 0; tb_ci = 0;
+    #10; tb_a = 4'h1; tb_b = 4'h5; tb_ci = 0;
+    #10; tb_a = 4'h3; tb_b = 4'h2; tb_ci = 0;
+    #10; tb_a = 4'h6; tb_b = 4'h5; tb_ci = 1;
+    #10; tb_a = 4'h4; tb_b = 4'h7; tb_ci = 1;
+    #10; tb_a = 4'hA; tb_b = 4'h1; tb_ci = 0;
+    #10; tb_a = 4'hF; tb_b = 4'hF; tb_ci = 1;
+>>>>>>> 33d23aa25eaec0d6c1cc30c64f8d0011050ef000
     #10; $stop;
   end
 endmodule

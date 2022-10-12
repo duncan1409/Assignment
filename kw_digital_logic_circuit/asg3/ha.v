@@ -1,18 +1,9 @@
-module ha (
-	input a, b,
-	output co, s
-	);
-	
-	_and2 U0_and2 (
-		.a(a),
-		.b(b),
-		.y(co)
-		);
-	
-	_or2 U1_or2 (
-		.a(a),
-		.b(b),
-		.y(s)
-		);
+module ha(a, b, s, co);
+//half adder
+	input a, b ;
+	output s, co ;
+
+	_xor2 U0_xor2(.a(a), .b(b), .y(s)) ;
+	_and2 U1_and2(.a(a), .b(b), .y(co)) ;
 	
 endmodule

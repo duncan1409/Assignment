@@ -1,0 +1,5 @@
+`timescale 1ns/100ps
+module testbench ;
+	reg tb_a, tb_b ;
+	wire y ;
+	
