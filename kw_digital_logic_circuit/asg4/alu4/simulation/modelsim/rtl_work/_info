@@ -1,0 +1,782 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/simulation/modelsim
+v_and2
+Z1 !s110 1665514284
+!i10b 1
+!s100 <RnYikLmP[:lVmdS<OaYS1
+Ii1U:mo2WnmbI]Nl3IM^En3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1665400679
+Z4 8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/gates.v
+Z5 FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/gates.v
+L0 9
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1665514284.000000
+Z8 !s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/gates.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/gates.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4
+Z12 tCvgOpt 0
+n@_and2
+v_and2_32bits
+R1
+!i10b 1
+!s100 ISCGeO7bZ[]KZEGXZi:d?0
+Ikz:45:3=o^G;AaGlNV=XN0
+R2
+R0
+R3
+R4
+R5
+L0 179
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and2_32bits
+v_and2_4bits
+R1
+!i10b 1
+!s100 2PDi>CZf9OTmhNgDmdXNB0
+IS`?]40:zQ;7_UcoZ:5LFA0
+R2
+R0
+R3
+R4
+R5
+L0 132
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and2_4bits
+v_and3
+R1
+!i10b 1
+!s100 FbX:Ad7N`^P5QmbZ4>^d[1
+IN0T27Lee6ZE:8?9I7k[?[3
+R2
+R0
+R3
+R4
+R5
+L0 73
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and3
+v_and4
+R1
+!i10b 1
+!s100 J1]15h6U69CY:94>QR19Q3
+IJnm9EKQ9@=DYmbDl7mRH>0
+R2
+R0
+R3
+R4
+R5
+L0 98
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and4
+v_and5
+R1
+!i10b 1
+!s100 EMLQd2^GkNhH;@V6em3KS0
+ICT4W@1KebV7BG8iOU;eKj2
+R2
+R0
+R3
+R4
+R5
+L0 115
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and5
+v_inv
+R1
+!i10b 1
+!s100 ;]=J=GDlmePZT98B36ScI2
+I9_Q7NGGN:1@Ullz]PQl8F2
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_inv
+v_inv_32bits
+R1
+!i10b 1
+!s100 V=]iT2Y6>SOieTXZLe3WH2
+I]=MF2z8]YiQVk?XI8k=<U3
+R2
+R0
+R3
+R4
+R5
+L0 171
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_inv_32bits
+v_inv_4bits
+R1
+!i10b 1
+!s100 XTeMecBmO8RoDB`:IJ=KS1
+IX36MN9odU7F52=eeMELCH1
+R2
+R0
+R3
+R4
+R5
+L0 124
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_inv_4bits
+v_nand2
+R1
+!i10b 1
+!s100 B7K8Q82[4OcZC1XI2[RjA1
+IbCJM7N0Jo57D7mDZ_c2zK0
+R2
+R0
+R3
+R4
+R5
+L0 16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_nand2
+v_nor2
+R1
+!i10b 1
+!s100 0lH>]N=Qon4E_B[2dZKbf3
+I3E=]]Fj9F22Y4iGU56R1i2
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_nor2
+v_or2
+R1
+!i10b 1
+!s100 6S>?kdg8_z2JCODoK10h50
+IfL5R^GDKaMjkPD5:7jan=3
+R2
+R0
+R3
+R4
+R5
+L0 24
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or2
+v_or2_32bits
+R1
+!i10b 1
+!s100 CmR4Wl=oE=Ob?Oh7KWX8n3
+I>XkoFhllR0XNNoN=0CjKh3
+R2
+R0
+R3
+R4
+R5
+L0 187
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or2_32bits
+v_or2_4bits
+R1
+!i10b 1
+!s100 EzKzJIj@eW7[>>Of?zKJL1
+I]Jo7`PWn]O91n:>VAB@^<2
+R2
+R0
+R3
+R4
+R5
+L0 140
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or2_4bits
+v_or3
+R1
+!i10b 1
+!s100 AFTOZS_2h6M5oC][zFNn^1
+IH:DBPS6P?[Pi`Fj2Co1I92
+R2
+R0
+R3
+R4
+R5
+L0 65
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or3
+v_or4
+R1
+!i10b 1
+!s100 I[Zim8SK?NgMkLYFU=k4C2
+ISdA>KZ@06NBMdT]f@G_ZL0
+R2
+R0
+R3
+R4
+R5
+L0 90
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or4
+v_or5
+R1
+!i10b 1
+!s100 B]_54UdSA@X;H_o<9b@zW2
+IiT^B8l>:^X2ghQQM_^ohA2
+R2
+R0
+R3
+R4
+R5
+L0 107
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or5
+v_xnor2
+R1
+!i10b 1
+!s100 iYzSA@WPdFO5g]^Abh:E13
+I>e47Gb7?`flT55T7:cnL]1
+R2
+R0
+R3
+R4
+R5
+L0 54
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xnor2
+v_xnor2_32bits
+R1
+!i10b 1
+!s100 inAM0`b:R]>RK@?RRHTlP3
+Ihd52ZNYfZ0ZjN`2ceR5T[2
+R2
+R0
+R3
+R4
+R5
+L0 210
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xnor2_32bits
+v_xnor2_4bits
+R1
+!i10b 1
+!s100 6]62f@?[^zPoMVz@4OWf;1
+IT8=`ZD5g6^P6i5T9E_a<>2
+R2
+R0
+R3
+R4
+R5
+L0 159
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xnor2_4bits
+v_xor2
+R1
+!i10b 1
+!s100 YV:=EeKFK8H9iD7Sg]6iE0
+I[U<oGkY>b4VHem>5gG>@N0
+R2
+R0
+R3
+R4
+R5
+L0 40
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor2
+v_xor2_32bits
+R1
+!i10b 1
+!s100 aJe^igRGgTQn9=oJaBL1J2
+IZmUhK7?QlTBm^zblC0kJ;3
+R2
+R0
+R3
+R4
+R5
+L0 195
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor2_32bits
+v_xor2_4bits
+R1
+!i10b 1
+!s100 G=`CXKX^7lG0WXT:WA;fI2
+IzRAdOAX?>zoe>?0jlf@Ij3
+R2
+R0
+R3
+R4
+R5
+L0 148
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor2_4bits
+v_xor3
+R1
+!i10b 1
+!s100 >?42l;>cYQ=HSNm<]NT^n1
+I=RYQ]9Z_^OmgLIV>P_ZE>0
+R2
+R0
+R3
+R4
+R5
+L0 81
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor3
+valu4
+R1
+!i10b 1
+!s100 Zz`liU1T1D7Z2:z<YOPOV1
+I;cSG^CBlh30dJRmoY5bbJ1
+R2
+R0
+Z13 w1665513807
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/alu4.v|
+!i113 1
+R10
+R11
+R12
+vcal_flags4
+R1
+!i10b 1
+!s100 E`QXzU9K9j:WWWfg<7fZj2
+I<=G1<zb=Q[FK8YT<Ozg842
+R2
+R0
+w1665508370
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cal_flags4.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cal_flags4.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cal_flags4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cal_flags4.v|
+!i113 1
+R10
+R11
+R12
+vcla4_ov
+R1
+!i10b 1
+!s100 [@N2c?N4ggXEX1:`SU_]V2
+I?S3=]`GN6Gzz<>o:M><LK2
+R2
+R0
+w1665512106
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cla4_ov.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cla4_ov.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cla4_ov.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/cla4_ov.v|
+!i113 1
+R10
+R11
+R12
+vclb4
+R1
+!i10b 1
+!s100 OQ`]SJ=D5UOXL1Mj175gQ1
+Id2;Kh_U1dJOezXFhZgg[12
+R2
+R0
+w1665406296
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/clb4.v|
+!i113 1
+R10
+R11
+R12
+vfa_v2
+R1
+!i10b 1
+!s100 WE4d5jReU7nNZJA6oXb_@0
+Ih;Nfl>o39G9Eb?<3UOPGR2
+R2
+R0
+w1664969911
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/fa_v2.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/fa_v2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/fa_v2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/fa_v2.v|
+!i113 1
+R10
+R11
+R12
+vmx2
+R1
+!i10b 1
+!s100 8L_Jh_z[d`7I^3U[h3K`d0
+ISV`7al<f7Q4z;R?nCaz8j2
+R2
+R0
+w1665400792
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2.v|
+!i113 1
+R10
+R11
+R12
+vmx2_4bits
+R1
+!i10b 1
+!s100 i_VWM?GR39PzN7TZ_QzL]2
+I^d3c_3@BGCCQ;e;LnC<dn1
+R2
+R0
+w1665400780
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2_4bits.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2_4bits.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx2_4bits.v|
+!i113 1
+R10
+R11
+R12
+vmx8
+R1
+!i10b 1
+!s100 V`4Ee@RWh6_mIn7_loz_=1
+I3;S?;D]U>2AKmWlFhoGF42
+R2
+R0
+w1665512271
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx8.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx8.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx8.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx8.v|
+!i113 1
+R10
+R11
+R12
+vmx8_4bits
+R1
+!i10b 1
+!s100 1MFafPE=k[M6?`[h1bmj`0
+Il7le9I`4=FiJ^HNZnJkSJ0
+R2
+R0
+w1665400786
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx8_4bits.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx8_4bits.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx8_4bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/mx8_4bits.v|
+!i113 1
+R10
+R11
+R12
+vtb_alu4
+R1
+!i10b 1
+!s100 F@cfnL]9LUz5j@VkKXKza2
+IdQ_F<N464nMR`KEbIjC523
+R2
+R0
+R13
+8C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/tb_alu4.v
+FC:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/tb_alu4.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/tb_alu4.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4|C:/Users/dunca/Workspace/Assignment/kw_digital_logic_circuit/asg4/alu4/tb_alu4.v|
+!i113 1
+R10
+R11
+R12
