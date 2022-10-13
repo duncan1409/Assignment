@@ -7,6 +7,7 @@
     "cstring": "cpp",
     "initializer_list": "cpp",
     "string_view": "cpp",
-    "fstream": "cpp"
+    "fstream": "cpp",
+    "typeinfo": "cpp"
   }
 }

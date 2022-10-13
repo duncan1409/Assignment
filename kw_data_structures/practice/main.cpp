@@ -14,34 +14,27 @@ int main()
   cin >> input >> command;
   if (command=="LOAD")
   {
-    cout<<"==========LOAD=========="<<endl;
     manager.Load();
-    cout<<"========================"<<endl;
   }
   else if (command=="ADD")
   {
-    cout<<"===========ADD==========="<<endl;
-    cout<<"========================"<<endl;
+    cout<<"ADD"<<endl;
   }
   else if (command=="MODIFY")
   {
-    cout<<"=========MODIFY========="<<endl;
-    cout<<"========================"<<endl;
+    cout<<"MODIFY"<<endl;
   }
   else if (command=="MOVE")
   {
-    cout<<"==========MOVE=========="<<endl;
-    cout<<"========================"<<endl;
+    cout<<"MOVE"<<endl;
   }
   else if (command=="PRINT")
   {
-    cout<<"==========PRINT=========="<<endl;
-    cout<<"========================"<<endl;
+    cout<<"PRINT"<<endl;
   }
   else if (command=="SEARCH")
   {
-    cout<<"=========SEARCH========="<<endl;
-    cout<<"========================"<<endl;
+    cout<<"SEARCH"<<endl;
   }
   else if (command=="SELECT")
   {

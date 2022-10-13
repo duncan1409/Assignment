@@ -20,9 +20,9 @@ private:
 public:
   void Load()
   {
-    fp = fopen("./img_files/filesnumbers.csv", "rb");
+    fp = fopen("./filesnumbers.csv", "rb");
 
-    fs.open("./img_files/filesnumbers.csv", ios::in);
+    fs.open("./filesnumbers.csv", ios::in);
     if (fp == NULL)
     { //if there is no filesnumber.csv in directory
       fprintf(stderr, "=======ERROR=======\n100\n===================\n");
