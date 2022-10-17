@@ -1,0 +1,606 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/simulation/modelsim
+v_and2
+Z1 !s110 1665450678
+!i10b 1
+!s100 <RnYikLmP[:lVmdS<OaYS1
+IIeV5kB7d<@k<LjKe1iNJc1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1665447062
+Z4 8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/gates.v
+Z5 FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/gates.v
+L0 9
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1665450678.000000
+Z8 !s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/gates.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/gates.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice
+Z12 tCvgOpt 0
+n@_and2
+v_and2_32bits
+R1
+!i10b 1
+!s100 ISCGeO7bZ[]KZEGXZi:d?0
+IBL2R77YOfnFJ;la=;K[e;3
+R2
+R0
+R3
+R4
+R5
+L0 179
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and2_32bits
+v_and2_4bits
+R1
+!i10b 1
+!s100 2PDi>CZf9OTmhNgDmdXNB0
+IZ7]?0494zjWmhFL4I0Xd20
+R2
+R0
+R3
+R4
+R5
+L0 132
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and2_4bits
+v_and3
+R1
+!i10b 1
+!s100 FbX:Ad7N`^P5QmbZ4>^d[1
+I5X99`1=h6PT;gPdA]BYEn3
+R2
+R0
+R3
+R4
+R5
+L0 73
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and3
+v_and4
+R1
+!i10b 1
+!s100 J1]15h6U69CY:94>QR19Q3
+Im:?j@@YIkSNKQO2W4T8W;1
+R2
+R0
+R3
+R4
+R5
+L0 98
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and4
+v_and5
+R1
+!i10b 1
+!s100 EMLQd2^GkNhH;@V6em3KS0
+I:BjLJKNQ8l[T]bSQJ8Po;3
+R2
+R0
+R3
+R4
+R5
+L0 115
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_and5
+v_inv
+R1
+!i10b 1
+!s100 ;]=J=GDlmePZT98B36ScI2
+I=7N_F9X]B>P[IcIz69inI2
+R2
+R0
+R3
+R4
+R5
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_inv
+v_inv_32bits
+R1
+!i10b 1
+!s100 V=]iT2Y6>SOieTXZLe3WH2
+InQ0A_<3;Z8iZ6Hd2SXiT00
+R2
+R0
+R3
+R4
+R5
+L0 171
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_inv_32bits
+v_inv_4bits
+R1
+!i10b 1
+!s100 XTeMecBmO8RoDB`:IJ=KS1
+ILgcAlkLO<P_[]lQMnM<@X2
+R2
+R0
+R3
+R4
+R5
+L0 124
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_inv_4bits
+v_nand2
+R1
+!i10b 1
+!s100 B7K8Q82[4OcZC1XI2[RjA1
+I6P41G:4b99aRCiYcobCji1
+R2
+R0
+R3
+R4
+R5
+L0 16
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_nand2
+v_nor2
+R1
+!i10b 1
+!s100 0lH>]N=Qon4E_B[2dZKbf3
+IX:jVNMYYleNNQeSJ0G@8h3
+R2
+R0
+R3
+R4
+R5
+L0 32
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_nor2
+v_or2
+R1
+!i10b 1
+!s100 6S>?kdg8_z2JCODoK10h50
+I@bI9MMY0aJ1]D>;k@O^742
+R2
+R0
+R3
+R4
+R5
+L0 24
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or2
+v_or2_32bits
+R1
+!i10b 1
+!s100 CmR4Wl=oE=Ob?Oh7KWX8n3
+I5]gC;hKBV[CMb2PQJ>6JJ3
+R2
+R0
+R3
+R4
+R5
+L0 187
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or2_32bits
+v_or2_4bits
+R1
+!i10b 1
+!s100 EzKzJIj@eW7[>>Of?zKJL1
+IC69j:FfiDMEj;WQcHDl450
+R2
+R0
+R3
+R4
+R5
+L0 140
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or2_4bits
+v_or3
+R1
+!i10b 1
+!s100 AFTOZS_2h6M5oC][zFNn^1
+I82B[JNV:PfoVSWf80V_9L0
+R2
+R0
+R3
+R4
+R5
+L0 65
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or3
+v_or4
+R1
+!i10b 1
+!s100 I[Zim8SK?NgMkLYFU=k4C2
+IBzmh]MM]4XL54lA^:b4Xn3
+R2
+R0
+R3
+R4
+R5
+L0 90
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or4
+v_or5
+R1
+!i10b 1
+!s100 B]_54UdSA@X;H_o<9b@zW2
+IgVNBPePMGWU>zXbfg5ITY3
+R2
+R0
+R3
+R4
+R5
+L0 107
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_or5
+v_xnor2
+R1
+!i10b 1
+!s100 iYzSA@WPdFO5g]^Abh:E13
+IX5Sfh^Na<LO1BTPL0^QXj3
+R2
+R0
+R3
+R4
+R5
+L0 54
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xnor2
+v_xnor2_32bits
+R1
+!i10b 1
+!s100 inAM0`b:R]>RK@?RRHTlP3
+IHAba10<DoKe>eIl;IFNIO2
+R2
+R0
+R3
+R4
+R5
+L0 210
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xnor2_32bits
+v_xnor2_4bits
+R1
+!i10b 1
+!s100 6]62f@?[^zPoMVz@4OWf;1
+IlL?o1CC29KAd8PDiWbh_n3
+R2
+R0
+R3
+R4
+R5
+L0 159
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xnor2_4bits
+v_xor2
+R1
+!i10b 1
+!s100 YV:=EeKFK8H9iD7Sg]6iE0
+I@B_nen3E9F`g3do^ODB9Z3
+R2
+R0
+R3
+R4
+R5
+L0 40
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor2
+v_xor2_32bits
+R1
+!i10b 1
+!s100 aJe^igRGgTQn9=oJaBL1J2
+IWK?M9:4:G6gT?Hh[GD:of3
+R2
+R0
+R3
+R4
+R5
+L0 195
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor2_32bits
+v_xor2_4bits
+R1
+!i10b 1
+!s100 G=`CXKX^7lG0WXT:WA;fI2
+IYLlZ>UPieQIV=SdX9LN5]3
+R2
+R0
+R3
+R4
+R5
+L0 148
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor2_4bits
+v_xor3
+R1
+!i10b 1
+!s100 >?42l;>cYQ=HSNm<]NT^n1
+IWZ<NfQXlz[YBEch938PSF1
+R2
+R0
+R3
+R4
+R5
+L0 81
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+n@_xor3
+vmx2
+R1
+!i10b 1
+!s100 8L_Jh_z[d`7I^3U[h3K`d0
+I>34;NP26VL:Hf=8i4>aJ62
+R2
+R0
+R3
+8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/mx2.v
+FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/mx2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/mx2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/mx2.v|
+!i113 1
+R10
+R11
+R12
+vtb
+R1
+!i10b 1
+!s100 Wm<ELCQJXMmoN_l5FXGU23
+ICanO1WGhCCHVAaM`;:;=63
+R2
+R0
+w1665450455
+8C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/tb_testif.v
+FC:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/tb_testif.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/tb_testif.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice|C:/Users/minz0/Workspace/Assignment/kw_digital_logic_circuit/practice/tb_testif.v|
+!i113 1
+R10
+R11
+R12

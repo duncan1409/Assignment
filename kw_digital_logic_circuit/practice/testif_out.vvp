@@ -1,0 +1,31 @@
+#! c:/iverilog-x64/bin/vvp
+:ivl_version "10.1 (stable)" "(v10_1_1)";
+:ivl_delay_selection "TYPICAL";
+:vpi_time_precision + 0;
+:vpi_module "system";
+:vpi_module "vhdl_sys";
+:vpi_module "v2005_math";
+:vpi_module "va_math";
+S_00000000027d63f0 .scope module, "tb" "tb" 2 1;
+ .timescale 0 0;
+L_000000000282ce28 .functor BUFT 1, C4<01>, C4<0>, C4<0>, C4<0>;
+L_00000000027d5aa0 .functor BUFT 2, L_000000000282ce28, C4<00>, C4<00>, C4<00>;
+v00000000027d68f0_0 .net/2s *"_s4", 1 0, L_000000000282ce28;  1 drivers
+v00000000027d5a00_0 .net *"_s8", 1 0, L_00000000027d5aa0;  1 drivers
+v00000000027d66d0_0 .net "my_val", 0 0, L_000000000117ee00;  1 drivers
+L_000000000282cd98 .functor BUFT 1, C4<1>, C4<0>, C4<0>, C4<0>;
+v000000000117ecc0_0 .net "val1", 0 0, L_000000000282cd98;  1 drivers
+L_000000000282cde0 .functor BUFT 1, C4<0>, C4<0>, C4<0>, C4<0>;
+v000000000117ed60_0 .net "val2", 0 0, L_000000000282cde0;  1 drivers
+L_000000000117ee00 .part L_00000000027d5aa0, 0, 1;
+    .scope S_00000000027d63f0;
+T_0 ;
+    %delay 1, 0;
+    %vpi_call 2 12 "$display", "%d %d %d", v000000000117ecc0_0, v000000000117ed60_0, v00000000027d66d0_0 {0 0 0};
+    %end;
+    .thread T_0;
+# The file index is used to find the file name in the following table.
+:file_names 3;
+    "N/A";
+    "<interactive>";
+    "tb_testif.v";

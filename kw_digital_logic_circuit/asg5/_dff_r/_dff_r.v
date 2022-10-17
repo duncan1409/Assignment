@@ -4,6 +4,6 @@ module _dff_r (clk, reset_n, d, q);
 
   wire w_d;
 
-  _and2 U0_and2(.a(), .b(), .y());
-  _dff U1_dff(.clk(), .d(), .q(), .q_bar());
+  _and2 U0_and2(.a(d), .b(reset_n), .y(w_d));
+  _dff U1_dff(.clk(clk), .d(w_d), .q(q), .q_bar());
 endmodule
